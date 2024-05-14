@@ -1,18 +1,18 @@
+import {Link} from 'react-router-dom'
 import styles from './Header.module.css'
 
 function Header () {
     return (
         <header className={styles.header}>
-            {/* <span>Sintonia Mental</span> */}
+            <Link to="/">
             <span><img src="./src/assets/logo.png" alt="Logo" /></span>
+            </Link>            
             <nav>
-                <a href="">Home</a>
-                <a href="">Contato</a>
-                <a href="">Tratamento</a>                
+                <Link to="/">Home</Link>
+                <Link to="/contato">Contato</Link>
+                <Link to="Tratamento">Tratamento</Link>                
             </nav>
                 <button>Login/Cadastro</button>
-                
-
         </header>
     )
 }
