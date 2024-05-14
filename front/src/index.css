@@ -1,0 +1,23 @@
+:root {
+  font-family: "Jost", sans-serif;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --primary: #1866B3;
+  --secondary: #87D1F2;
+  --soft-gray: #716B6B;
+  --white: #FFF;
+  --black: #111;
+  --dark-blue: #6193F5;
+}
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}

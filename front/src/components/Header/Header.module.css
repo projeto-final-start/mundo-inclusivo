@@ -1,0 +1,26 @@
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(29, 154, 210, 0.68);    
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header span {
+    margin-top: 20px;
+    
+}
+
+.header a {
+    text-decoration: none;
+    color: var(--white);
+    padding-right: 24px;
+    font-size: 18px;
+}
+
+.header a:hover {
+    color: var(--primary);
+}
