@@ -1,13 +1,15 @@
+import "./login.css";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
+import {Link} from 'react-router-dom'
 
 
-import "./Home.css";
 
-function Home() {
+
+function Login() {
   return (
     <>
-      <Header />
+      <Header/>
       <div className="login-page">
         <div>
           <img src="front\src\assets\fundao-login.svg" alt="background-img" className="background-image" />
@@ -37,6 +39,7 @@ function Home() {
                 <label htmlFor="Não tem conta?">Não tem conta?</label>
                 <a href="#">Criar uma nova conta</a>
               </div>
+            <Footer/>  
 
             </form>
           </div>
@@ -45,9 +48,9 @@ function Home() {
       <div className="image">
         <img src="front/src/assets/foto-login.svg" alt="Foto" className="foto" />
       </div>
-      <Footer />
+      
     </>
-  );
+  )
 }
 
-export default Home;
+export default Login;
