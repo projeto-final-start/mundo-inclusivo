@@ -10,8 +10,7 @@ function Home() {
       <Header />
       <div className="login-page">
         <div>
-          <img src="front\src\assets\fundao-login.svg" alt="background-img" className="background-image" />
-          <div className="glass-effect"></div>
+          <img src="front\src\assets\fundao-login.svg" alt="Imagem de Fundo bolas azuis" className="background-image" />
         </div>
 
         <div className="login-container">
