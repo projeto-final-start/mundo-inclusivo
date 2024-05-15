@@ -4,6 +4,7 @@ import Contato from "./Pages/Contato"
 import Tratamento from "./Pages/Tratamento"
 import Login from "./Pages/Login"
 import Page404 from './Pages/Page404'
+import Cadastro from "./Pages/Cadastro-especialista"
 
 
 
@@ -16,6 +17,7 @@ function AppRoutes () {
                 <Route path="/tratamento" element={<Tratamento/>}></Route>
                 <Route path="/login" element={<Login/>}></Route>
                 <Route path="*" element={<Page404/>}></Route>
+                <Route path="/cadastro-especialista" element={<Cadastro/>}></Route>
             </Routes>
         </BrowserRouter>
     )
