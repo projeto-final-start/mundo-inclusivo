@@ -2,7 +2,6 @@ import "./Login.css";
 import Header from "../../components/Header";
 import Container from '../../components/Container';
 import Footer from "../../components/Footer";
-import Container from '../../components/Container'
 import { Link } from 'react-router-dom';
 
 function Login() {
@@ -20,17 +19,7 @@ function Login() {
             <h1 className="login">Login</h1>
               <input className="email" type="email" id="email-login" placeholder="E-mail ou CPF" />
               <input className="senha" type="password" id="senha-login" placeholder="Senha" />
-      <Container>
-        <div className="login-page">
-          <figure>
-            <img src="front\public\backgroundlogin.svg" alt="background-img" className="background-image" />
-          </figure>
 
-          <div className="caixa-login">
-            <form className="form-caixa">
-              <h2 className="login">Login</h2>
-              <input className="email" type="email" id="email-login" name="email" placeholder="E-mail ou CPF" />
-              <input className="senha" type="senha" id="senha-login" name="senha" placeholder="Senha" />
 
               <div className="caixa">
                 <input type="checkbox" id="remember" name="lembre-me" />
@@ -53,13 +42,6 @@ function Login() {
           </div>
         </div>
       </Container>
-            <figure>
-              <img src="front\public\fotologin.svg" alt="Foto" className="foto" />
-            </figure>
-          </div>
-        </div>
-      </Container>
-
       <Footer />
     </>
   )
