@@ -2,7 +2,6 @@ import "./Login.css";
 import Header from "../../components/Header";
 import Container from '../../components/Container';
 import Footer from "../../components/Footer";
-import Container from '../../components/Container'
 import { Link } from 'react-router-dom';
 
 function Login() {
@@ -48,4 +47,4 @@ function Login() {
   )
 }
 
-export default Login;
+export default Login
