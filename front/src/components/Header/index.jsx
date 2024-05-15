@@ -14,7 +14,10 @@ function Header() {
             <nav>
                 <Link to="/">Home</Link>
                 <Link to="/contato">Contato</Link>
-                <Link to="Tratamento">Tratamento</Link>
+
+                <Link to="Tratamento">Tratamento</Link>       
+                <Link to="Cadastro-especialista">Cadastro</Link>            
+
             </nav>
             <button onClick={() => setOpenModal(true)}>Login/Cadastro</button>
             <Modal isOpen={openModal} setModalOpen={() => setOpenModal(!openModal)}>

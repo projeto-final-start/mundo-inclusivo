@@ -1,5 +1,4 @@
 .caixa-login {
-  position: absolute;
   width: 1204px;
   height: 600px;
   left: 142px;
@@ -12,7 +11,7 @@
 
 .form-caixa {
   position: absolute;
-  right: 50px;
+  right: 170px;
   align-items: center;
   margin-block: 200px;
 
@@ -23,19 +22,22 @@
   width: 100%;
   padding: 8px;
   border-radius: 330.5px;
-  border: 1px solid #ccc;
-
+  border: 1px solid #333333;
+  margin-bottom: 10px;
 }
 
 .login {
-  text-align: center;
-  margin-top: -50px;
-  line-height: 69px;
-  font-size: 30px;
-  font-weight: 400;
-  width: 113px;
-  left: 180px;
-  color: #3969C8;
+ margin-left: 30%;
+ line-height: 80px;
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400; 
+font-size: 48px;
+line-height: -69px;
+margin-top: -40px;
+
+color: #3969C8;
+
 }
 
 input {
@@ -53,8 +55,8 @@ input {
   flex: 1;
   margin-bottom: 2px;
   text-decoration: none;
-  margin-top: 15px;
-  margin-left: 20px;
+  margin-top: 1px;
+margin-left: 30px;
 }
 
 .botao-login {
@@ -80,4 +82,8 @@ input {
 .semconta,
 .criarconta {
   flex: 1;
+  margin-bottom: 2px;
+  text-decoration: none;
+  margin-top: 1px;
+  margin-left: 30px;
 }
