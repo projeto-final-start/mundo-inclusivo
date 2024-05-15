@@ -1,5 +1,6 @@
 import "./Login.css";
 import Header from "../../components/Header";
+import Container from '../../components/Container';
 import Footer from "../../components/Footer";
 import Container from '../../components/Container'
 import { Link } from 'react-router-dom';
@@ -13,13 +14,13 @@ function Login() {
           <figure>
             <img src="front\public\backgroundlogin.svg" alt="background-img" className="background-image" />
           </figure>
-
           
           <div className="caixa-login">
             <form className="form-caixa">
             <h1 className="login">Login</h1>
               <input className="email" type="email" id="email-login" placeholder="E-mail ou CPF" />
               <input className="senha" type="password" id="senha-login" placeholder="Senha" />
+
 
               <div className="caixa">
                 <input type="checkbox" id="remember" name="lembre-me" />
