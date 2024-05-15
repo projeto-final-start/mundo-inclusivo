@@ -1,54 +1,45 @@
 import "./login.css";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
-import {Link} from 'react-router-dom'
-
-
-
+import { Link } from 'react-router-dom'
 
 function Login() {
   return (
     <>
-      <Header/>
+      <Header />
       <div className="login-page">
-        <div>
-          <img src="front\src\assets\fundao-login.svg" alt="background-img" className="background-image" />
-          <div className="glass-effect"></div>
-        </div>
+        <figure>
+          <img src="front\public\backgroundlogin.svg" alt="background-img" className="background-image" />
+        </figure>
 
-        <div className="login-container">
-          <div className="form-container">
+        <div className="caixa-login">
+          <form className="form-caixa">
             <h2>Login</h2>
-            <form>
-              <div className="input-group">
-                <input type="email" id="email" name="email" placeholder="E-mail ou CPF" />
+            <input className="email" type="email" id="email-login" name="email" placeholder="E-mail ou CPF" />
+            <input className="senha" type="senha" id="senha-login" name="senha" placeholder="Senha" />
+
+            <div className="caixa">
+              <input type="checkbox" id="remember" name="lembre-me" />
+              <label className="remember-login" htmlFor="lembre-me">Lembre-me</label>
+              <Link className="semsenha" to="#">Esqueceu a senha?</Link>
               </div>
 
-              <div className="input-group">
-                <input type="password" id="password" name="password" placeholder="Senha" />
-              </div>
+            <button className="botao-login" type="submit">Login</button>
 
-              <div className="lembre-forgot">
-                <input type="checkbox" id="remember" name="lembre-me" />
-                <label htmlFor="lembre-me">Lembre-me</label>
-                <a href="#">Esqueceu sua senha?</a>
-              </div>
+            <div className="semconta-grupo">
+              <label className="semconta" htmlFor="Não tem conta?">Não tem conta?</label>
+              <Link className="criarconta"to="#">Criar nova conta</Link>
+            </div>
 
-              <button className="botao-login" type="submit">Login</button>
-              <div className="semconta">
-                <label htmlFor="Não tem conta?">Não tem conta?</label>
-                <a href="#">Criar uma nova conta</a>
-              </div>
-            <Footer/>  
+          </form >
 
-            </form>
-          </div>
+          <figure>
+            <img src="front\public\fotologin.svg" alt="Foto" className="foto" />
+          </figure>
         </div>
       </div>
-      <div className="image">
-        <img src="front/src/assets/foto-login.svg" alt="Foto" className="foto" />
-      </div>
-      
+
+      <Footer />
     </>
   )
 }
