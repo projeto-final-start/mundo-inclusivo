@@ -1,0 +1,11 @@
+.titulo2-404 {
+    padding-top: 72px;
+    text-align: match-parent;
+    
+}
+
+.texto-404 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

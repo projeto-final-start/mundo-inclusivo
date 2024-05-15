@@ -1,8 +1,10 @@
-import {BrowserRouter, Route, Routes} from "react-router-dom";
-import Home from "./Pages/Home";
-import Contato from "./Pages/Contato";
-import Tratamento from "./Pages/Tratamento";
-import Login from "./Pages/Login";
+import {BrowserRouter, Route, Routes} from "react-router-dom"
+import Home from "./Pages/Home"
+import Contato from "./Pages/Contato"
+import Tratamento from "./Pages/Tratamento"
+import Login from "./Pages/Login"
+import Page404 from './Pages/Page404'
+
 
 
 function AppRoutes () {
@@ -13,6 +15,7 @@ function AppRoutes () {
                 <Route path="/contato" element={<Contato/>}></Route>
                 <Route path="/tratamento" element={<Tratamento/>}></Route>
                 <Route path="/login" element={<Login/>}></Route>
+                <Route path="*" element={<Page404/>}></Route>
             </Routes>
         </BrowserRouter>
     )

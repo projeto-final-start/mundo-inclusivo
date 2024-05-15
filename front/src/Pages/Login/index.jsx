@@ -1,4 +1,4 @@
-import "./login.css";
+import "./Login.css";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import { Link } from 'react-router-dom'
@@ -14,7 +14,7 @@ function Login() {
 
         <div className="caixa-login">
           <form className="form-caixa">
-            <h2>Login</h2>
+            <h2 className="login">Login</h2>
             <input className="email" type="email" id="email-login" name="email" placeholder="E-mail ou CPF" />
             <input className="senha" type="senha" id="senha-login" name="senha" placeholder="Senha" />
 

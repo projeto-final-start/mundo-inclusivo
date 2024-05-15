@@ -1,0 +1,48 @@
+.home {
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.home img {
+    height: 500px;
+}
+
+.home span {
+    font-size: 80px;
+    color: var(--dark-blue);
+    font-weight: bold;
+}
+
+.home h1 {
+    font-size: 80px;
+}
+
+.home p {
+    font-weight: 24px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.btn-home {
+    width: 250px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 0;
+    background: linear-gradient(90deg, rgba(0, 212, 255, 1) 26%, rgba(9, 9, 121, 1) 65%);
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.btn-home:hover {
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}

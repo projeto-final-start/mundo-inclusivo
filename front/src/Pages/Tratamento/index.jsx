@@ -1,11 +1,14 @@
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
+import Container from '../../components/Container'
 
 function Tratamento() {
     return (
         <>
             <Header />
-            <h1>Tratamento</h1>
+            <Container>
+                <h2>Tratamento</h2>
+            </Container>
             <Footer />
         </>
     )
