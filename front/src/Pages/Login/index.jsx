@@ -14,7 +14,6 @@ function Login() {
           <figure>
             <img src="front\public\backgroundlogin.svg" alt="background-img" className="background-image" />
           </figure>
-
           
           <div className="caixa-login">
             <form className="form-caixa">
