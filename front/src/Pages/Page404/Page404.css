@@ -1,6 +1,7 @@
 .titulo2-404 {
     padding-top: 72px;
-    text-align: match-parent;
+    font-size: 30px;  
+    
     
 }
 
@@ -8,4 +9,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+
+.texto_grande-404, .texto_preto-404 {
+    font-size: 300px;
+    color: red;
+    font-weight: bold;
+}
+
+.texto_preto-404 {
+    font-size: 1.5rem;
 }
