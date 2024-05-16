@@ -4,7 +4,7 @@ import Container from '../../components/Container';
 import "./Cadastro.css";
 
 
-function Cadastro() {
+function CadastroEspecialista() {
     return (
         <>
             <Header />
@@ -25,8 +25,6 @@ function Cadastro() {
                             <input className="numero-cad" type="text" id="numero" placeholder="Número de celular" />
                             <input className="CPF-cad" type="text" id="CPF" placeholder="CPF" />
                             <input className="genero-cad" type="list" datalist="Masculino" id="genero" placeholder="Gênero" />
-                            <input type="radio" name="sexo" id="cmasc" value="Homem"/>
-                            <input type="radio" name="sexo" id="cfem" value="Mulher"/>
                         </form>
                     </div>
 
@@ -37,4 +35,4 @@ function Cadastro() {
     )
 }
 
-export default Cadastro
+export default CadastroEspecialista
