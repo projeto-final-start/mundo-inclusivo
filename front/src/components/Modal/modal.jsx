@@ -13,9 +13,9 @@ const BACKGROUND_STYLE = {
 
 const MODAL_STYLE = {
     position: 'fixed',
-    bottom: '42%',
+    bottom: '48%',
     left: '74%',
-    padding: '40px',
+    padding: '20px',
     backgroundColor: '#fff',
     borderRadius: '15px'
 }
