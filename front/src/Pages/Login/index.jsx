@@ -11,7 +11,7 @@ function Login() {
       <Container>
         <div className="login-page">
           <figure>
-            <img src="front\public\backgroundlogin.svg" alt="background-img" className="background-image" />
+            <img src="./src/assets/background.svg" alt="background-img" className="background-image" />
           </figure>
           
           <div className="caixa-login">
@@ -47,4 +47,4 @@ function Login() {
   )
 }
 
-export default Login;
+export default Login

@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaSquareXmark } from "react-icons/fa6"
 
 const BACKGROUND_STYLE = {
     position: 'fixed',
@@ -12,18 +13,16 @@ const BACKGROUND_STYLE = {
 
 const MODAL_STYLE = {
     position: 'fixed',
-    bottom: '49%',
-    left: '72%',
-    // transform: 'translate(-50%, -50%,)',
+    bottom: '42%',
+    left: '74%',
     padding: '40px',
     backgroundColor: '#fff',
     borderRadius: '15px'
 }
 
 const CLOSE_STYLE = {
-    cursor: 'pointer',
-    display: 'flex',
-    alignItems: 'flexEnd'
+    cursor: 'pointer', 
+    color: 'red', fontSize: '2em',   
 }
 
 function modal({ isOpen,setModalOpen, children }) {
@@ -35,7 +34,7 @@ function modal({ isOpen,setModalOpen, children }) {
               <div>
                 {children}
               </div>
-              <div style={CLOSE_STYLE} onClick={setModalOpen}>X</div>
+              <div style={CLOSE_STYLE} onClick={setModalOpen}><FaSquareXmark/></div>
              </div>
             </div>
         )
