@@ -4,7 +4,7 @@ import Container from '../../components/Container';
 import "./Cadastro.css";
 
 
-function Cadastro() {
+function CadastroEspecialista() {
     return (
         <>
             <Header />
@@ -35,4 +35,4 @@ function Cadastro() {
     )
 }
 
-export default Cadastro
+export default CadastroEspecialista

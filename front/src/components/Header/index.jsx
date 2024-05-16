@@ -3,6 +3,7 @@ import styles from './Header.module.css'
 import { useState } from 'react'
 import Modal from '../Modal/modal'
 
+
 function Header() {
     const [openModal, setOpenModal] = useState(false)
 
@@ -15,8 +16,8 @@ function Header() {
                 <Link to="/">Home</Link>
                 <Link to="/contato">Contato</Link>
 
-                <Link to="Tratamento">Tratamento</Link>       
-                <Link to="Cadastro-especialista">Cadastro</Link>            
+                <Link to="/tratamento">Tratamento</Link>
+                <Link to="/cadastro-especialista">Cadastro</Link>
 
             </nav>
             <button onClick={() => setOpenModal(true)}>Login/Cadastro</button>
@@ -25,19 +26,25 @@ function Header() {
                     Para visualizar suas consultas e agendar, <br />
                     acesse sua conta:
                 </h3>
-                <ul>
-                    <h4>Pacientes</h4>
-                    <Link to="/login">Entrar</Link> <br /> 
-                    <Link to="/cadastro">Criar Conta</Link> <br /> <br />
-                </ul>
-                <ul>
-                    <h4>Profissional da Saúde</h4>
-                    <Link to="/login">Entrar</Link> <br /> 
-                    <Link to="/cadastro-profissional">Criar Conta</Link> <br /> <br />
-                </ul>
+                <div>
+                    <div className={styles.modalIcones}>
+                        <img src="./src/assets/icones/icone-paciente.svg" alt="" />
+                        <h4>Pacientes</h4>
+                    </div>
+                    <Link to="/login">Entrar</Link> <br />
+                    <Link to="/cadastro">Criar Conta</Link> 
+                </div>
+                <div>
+                    <div className={styles.modalIcones}> 
+                        <img src="./src/assets/icones/icone-profissional.svg" alt="" />
+                        <h4>Profissional da Saúde</h4>
+                    </div>    
+                        <Link to="/login">Entrar</Link> <br />
+                        <Link to="/cadastro-especialista">Criar Conta</Link> <br /> <br />                    
+                </div>
             </Modal>
         </header>
-        
+
     )
 }
 
