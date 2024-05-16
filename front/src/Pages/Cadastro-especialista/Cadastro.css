@@ -1,0 +1,100 @@
+.container {
+    position: relative;
+}
+
+.box-cad1 {
+    position: absolute;
+    width: 1240px;
+    height: 620px;
+    left: 109px;
+    top: 105px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 77px;
+    padding: 30px;
+}
+
+
+.box-cad2 {
+    display: flex;
+
+
+}
+
+.cadastro {
+    position: absolute;
+    width: 180px;
+    height: 6px;
+    left: 620px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    color: #3969C8;
+}
+
+
+::placeholder {
+    text-align: center;
+}
+
+form{
+    margin-top: 120px;
+    margin-left: 70px;
+}
+
+.formulario2 {
+    right: 50px;
+}
+
+.nome-cad,
+.email-cad,
+.senha-cad {
+    display: block;
+    width: 560px;
+    height: 55px;
+    left: 50px;
+    margin-bottom: 30px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 330.5px;
+    text-align: center;
+}
+
+.numero-cad,
+.cpf-cad {
+    width: 280px;
+    height: 55px;
+    margin-bottom: 30px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 330.5px;
+    text-align: center;
+}
+
+.genero-cad {
+    display: block;
+    width: 560px;
+    height: 55px;
+    left: 50px;
+    margin-bottom: 30px;
+    color: #727171;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 330.5px;
+    text-align: center;
+}
+
+.formulario2 {
+    width: 280px;
+    height: -55px;
+    margin-bottom: 30px;
+    background: #c10909;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 330.5px;
+    text-align: center;
+}
+
+.formulario1 {
+    margin-top: 120px;
+    margin-left: 70px;
+}
