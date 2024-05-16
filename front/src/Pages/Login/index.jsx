@@ -9,11 +9,10 @@ function Login() {
     <>
       <Header />
       <Container>
-        <div className="login-page">
           <figure>
             <img src="./src/assets/background.svg" alt="background-img" className="background-image" />
           </figure>
-          
+          <div className="login-page">
           <div className="caixa-login">
             <form className="form-caixa">
             <h1 className="login">Login</h1>
