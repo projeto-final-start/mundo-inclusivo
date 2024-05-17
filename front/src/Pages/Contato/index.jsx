@@ -1,17 +1,9 @@
-import Header from '../../components/Header'
-import Footer from '../../components/Footer'
-import Container from '../../components/Container'
-
-function Contato () {
-    return (
-        <>
-            <Header/>
-            <Container>
-                <h2>Contato</h2>
-            </Container>
-            <Footer/>
-        </>
-    )
+function Contato() {
+  return (
+    <>
+      <h2>Contato</h2>
+    </>
+  );
 }
 
-export default Contato
+export default Contato;
