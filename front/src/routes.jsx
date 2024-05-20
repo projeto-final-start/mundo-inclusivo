@@ -4,6 +4,7 @@ import Contato from "./Pages/Contato";
 import Tratamento from "./Pages/Tratamento";
 import Login from "./Pages/Login";
 import CadastroEspecialista from "./Pages/Cadastro-especialista";
+import Cliente from "./Pages/Cliente";
 import Page404 from "./Pages/Page404";
 import PageBase from "./Pages/PageBase";
 
@@ -20,6 +21,7 @@ function AppRoutes() {
           path="cadastro-especialista"
           element={<CadastroEspecialista />}
         />
+        <Route path="cliente" element={<Cliente />} />
         <Route path="*" element={<Page404 />} /> {}
         </Route>
       </Routes>

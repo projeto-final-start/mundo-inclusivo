@@ -1,7 +1,8 @@
 import "./Footer.css"
+import { Link } from 'react-router-dom'
 import { FaFacebookF } from "react-icons/fa6"
 import { FaInstagram } from "react-icons/fa6"
-import { FaWhatsapp } from "react-icons/fa6"
+import { FaSquareGithub } from "react-icons/fa6"
 import { FaEnvelope } from "react-icons/fa6"
 
 function Footer() {
@@ -9,27 +10,27 @@ function Footer() {
         <footer>
             <div id="footer_content">
                 <div id="footer_contacts">
-                    <h1>Logo</h1>
-                    <p>It's all about your dreams</p>
+                    <h1>Redes</h1>
+                    <p>Siga-nos</p>
 
                     <div id="footer_social_media">
-                        <a href="#" className="footer-link" id="facebook"> <FaFacebookF /></a>
-                        <a href="#" className="footer-link" id="instagram"><FaInstagram /></a>
-                        <a href="#" className="footer-link" id="whatsapp"><FaWhatsapp /></a>
+                        <a href="https://www.facebook.com/" target="_blank" className="footer-link" id="facebook"> <FaFacebookF /></a>
+                        <a href="https://www.instagram.com/" target="_blank" className="footer-link" id="instagram"><FaInstagram /></a>
+                        <a href="https://github.com/projeto-final-start/projeto-final" target="_blank" className="footer-link" id="whatsapp"><FaSquareGithub /></a>
                     </div>
                 </div>
                 <ul className="footer-list">
                     <li>
-                        <h3>Blog</h3>
+                        <h3>Cliente</h3>
                     </li>
                     <li>
-                        <a href="#" className="footer-link">Tech</a>
+                        <Link to="/login" className="footer-link">Entrar</Link>
                     </li>
                     <li>
-                        <a href="#" className="footer-link">Adventures</a>
+                        <Link to="/cadastro-paciente" className="footer-link">Criar Conta</Link>
                     </li>
                     <li>
-                        <a href="#" className="footer-link">Music</a>
+                        <Link href="#" className="footer-link">Especialistas</Link>
                     </li>
                 </ul>
                 <ul className="footer-list">
@@ -44,7 +45,21 @@ function Footer() {
                     </li>
                     <li>
                         <a href="#" className="footer-link">Cloud</a>
+                    </li>                    
+                </ul>
+                <ul className="footer-list">
+                    <li>
+                        <h3>Products</h3>
                     </li>
+                    <li>
+                        <a href="#" className="footer-link">App</a>
+                    </li>
+                    <li>
+                        <a href="#" className="footer-link">Desktop</a>
+                    </li>
+                    <li>
+                        <a href="#" className="footer-link">Cloud</a>
+                    </li>                    
                 </ul>
                 <div id="footer_subscribe">
                     <h3>Subscribe</h3>
