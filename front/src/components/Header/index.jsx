@@ -28,10 +28,10 @@ function Header() {
                 <div>
                     <div className={styles.modalIcones}>
                         <img src="./src/assets/icones/icone-paciente.svg" alt="" />
-                        <h4>Pacientes</h4>
+                        <h4>Cliente</h4>
                     </div>
                     <Link to="/login">Entrar</Link> <br />
-                    <Link to="/cadastro">Criar Conta</Link> 
+                    <Link to="/cliente">Criar Conta</Link> 
                 </div>
                 <div>
                     <div className={styles.modalIcones}> 
