@@ -20,6 +20,7 @@ function Header() {
                  <NavLink to="/">Home</NavLink> {/*Testando navlink para estilizar caso não de apagar import do navlink e retornar para link */}
                 <NavLink to="/contato">Contato</NavLink>
                 <NavLink to="/tratamento">Tratamento</NavLink>
+                <NavLink to="/perfilcliente">Perfil Cliente Teste</NavLink>
             </nav>            
             <button onClick={() => setOpenModal(true)}>Login/Cadastro</button>
             <Modal isOpen={openModal} setModalOpen={() => setOpenModal(!openModal)}>
