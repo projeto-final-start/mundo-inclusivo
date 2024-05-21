@@ -1,0 +1,61 @@
+.cadastro-cliente {
+    width: 1004px;
+    height: 500px;
+    margin-top: 50px;
+    background-color: rgb(255, 253, 253);
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 77px;
+}
+.cadastre {
+    margin-left: 2%;
+    line-height: 80px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: -69px;
+    margin-top: -40px;
+
+    color: #3969C8;
+}
+
+.box-cliente {
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 8%;
+}
+
+.nome-cliente,
+.email-cliente,
+.senha-cliente {
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    border-radius: 15px;
+    border: 1px solid #333333;
+    margin-bottom: 15px;
+}
+
+.botaocliente {
+    width: 270px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 0;
+    background: var(--dark-blue);
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-left: 25%;
+    margin-top: 5%;
+
+  }
+  
+  .btn-cliente:hover {
+    background: var(--white);
+    color: var(--dark-blue);
+  }

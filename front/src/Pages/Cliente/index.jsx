@@ -1,45 +1,46 @@
 import React, { useState } from "react";
-
+import "./Cliente.css";
+import { Link } from "react-router-dom";
 
 function Cliente() {
   const [activeTab, setActiveTab] = useState(null);
 
   return (
     <>
-      <div className="cadastro-page1">
-        <figure>
-          <img src="" alt="imagem de fundo" />
-        </figure>
+      <div className="cadastro-cliente">
 
-        <div className="box-cad1">
-          <h1 className="cadastro">Cadastro Cliente</h1>
-          <form className="form-esquerda">
+        <div className="box-cliente">
+          <h1 className="cadastre">Cadastre-se</h1>
+          <form>
             <input
-              className="nome-cad"
+              className="nome-cliente"
               type="text"
               id="nome"
               placeholder="Nome e Sobrenome"
             />
             <input
-              className="email-cad"
+              className="email-cliente"
               type="email"
               id="email"
               placeholder="E-mail"
             />
             <input
-              className="senha-cad"
+              className="senha-cliente"
               type="password"
               id="senha"
               placeholder="Senha"
             />
           </form>
+
+
+          <div className="Btn-cliente"></div>
+          <Link className="botaocliente">
+            Quero me cadastrar
+          </Link>
         </div>
-
-        <div className="Botao"></div>
-
-        <button className="botao-cadastro" type="submit">
-          Quero me cadastrar
-        </button>
+        <figure className="fotocliente">
+            <img src="/src/assets/fotologincliente.svg" alt="Foto" className="foto" />
+          </figure>
       </div>
     </>
   );
