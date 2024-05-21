@@ -1,10 +1,10 @@
-import { Link } from "react-router-dom";
-import "./Home.css";
+import { Link } from "react-router-dom"
+import "./Home.css"
 
 function Home() {
   return (
     <section className="home">
-      <div className="apresentacao-home">
+      <div>
         <h1>Sintonia</h1>
         <span>Mental</span>
         <p>
@@ -18,7 +18,7 @@ function Home() {
         <img className="img-home" src="/foto-home.svg" alt="Imagem de home" />
       </figure>
     </section>
-  );
+  )
 }
 
-export default Home;
+export default Home
