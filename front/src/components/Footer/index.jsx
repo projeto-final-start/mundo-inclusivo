@@ -40,7 +40,7 @@ function Footer() {
                         <Link to="/login" className="footer-link">Entrar</Link>
                     </li>
                     <li>
-                        <Link to="/Cadastro-especialista" className="footer-link">Criar Conta</Link>
+                        <Link to="/cadastro-especialista" className="footer-link">Criar Conta</Link>
                     </li>
                 </ul>
                 <ul className="footer-list">

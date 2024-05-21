@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { NavLink } from "react-router-dom";
 import styles from './Header.module.css'
 import { useState } from 'react'
 import Modal from '../Modal/modal'
@@ -13,9 +14,9 @@ function Header() {
                 <span><img src="./src/assets/logo.png" alt="Logo" /></span>
             </Link>
             <nav>
-                <Link to="/">Home</Link>
-                <Link to="/contato">Contato</Link>
-                <Link to="/tratamento">Tratamento</Link>
+                 <NavLink to="/">Home</NavLink> {/*Testando navlink para estilizar caso não de apagar import do navlink e retornar para link */}
+                <NavLink to="/contato">Contato</NavLink>
+                <NavLink to="/tratamento">Tratamento</NavLink>
             </nav>            
             <button onClick={() => setOpenModal(true)}>Login/Cadastro</button>
             <Modal isOpen={openModal} setModalOpen={() => setOpenModal(!openModal)}>

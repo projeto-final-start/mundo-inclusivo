@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+
 function Cliente() {
   const [activeTab, setActiveTab] = useState(null);
 
