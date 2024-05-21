@@ -41,7 +41,7 @@ function Header() {
                         <h4>Profissional da Saúde</h4>
                     </div>    
                         <Link to="/login">Entrar</Link> <br />
-                        <Link to="/cadastro-especialista">Criar Conta</Link> <br /> <br />                    
+                        <Link to="/cadastroespecialista">Criar Conta</Link> <br /> <br />                    
                 </div>
             </Modal>
         </header>

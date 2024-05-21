@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "./Cadastro.css";
+import { Link } from "react-router-dom";
+
 
 function CadastroEspecialista() {
     const [activeTab, setActiveTab] = useState(null);
@@ -13,7 +15,8 @@ function CadastroEspecialista() {
 
                 <div className="box-cad1">
                     <h1 className="cadastro">Cadastro</h1>
-                    <form className="form-esquerda">
+                    
+                    <form>
                         <input
                             className="nome-cad"
                             type="text"
@@ -51,7 +54,8 @@ function CadastroEspecialista() {
                             <option value="outro">Outro</option>
                         </select>
                     </form>
-                </div>
+                
+                
 
                 <div className="Botao">
                     <div
@@ -69,7 +73,7 @@ function CadastroEspecialista() {
                 </div>
 
                 {activeTab && (
-                    <div className="form-direita">
+                    <div>
                         {activeTab === 'psicologo' && (
                             <form>
                                 <input className="crp-cad" type="text" id="crp" placeholder="CRP" />
@@ -87,9 +91,10 @@ function CadastroEspecialista() {
                     </div>
                 )}
 
-                <button className="botao-cadastro" type="submit">
-                Quero me cadastrar
-                </button>
+                <Link to="/agendaespecialista" className="botao-cadastro">
+                    Quero me cadastrar
+                </Link>
+                </div>
             </div>
         </>
     );
