@@ -25,3 +25,16 @@ p {
     font-size: larger;
 }
 
+.parte1 div  {
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.Classe1 img1 {
+   margin-left: 100px;
+   display:flex;
+   align-items: center;
+   justify-content: space-around;
+}

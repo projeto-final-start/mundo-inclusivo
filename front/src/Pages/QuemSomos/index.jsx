@@ -2,13 +2,13 @@ import "./QuemSomos.css";
 
 function QuemSomos() {
   return (
-    <section>
-      <div className="Classe1">
+      <section>
+      <div className="parte1">
         <h1>Conheça o <br />
         Mundo Inclusivo</h1>
         <h2>A melhor plataforma para consultas online.</h2>
         <figure>
-          <img src="img-quem-somos.svg" alt="Imagem Quem Somos" />
+          <img className="img1" src="/src/assets/img-quem-somos.svg" alt="Imagem Quem Somos" />
         </figure>
         <br />
         <h3>Diversas especialidades</h3>
@@ -21,7 +21,7 @@ function QuemSomos() {
         </p>
        
         <figure>
-          <img src="img-quem-somos-2.svg" alt="Imagem Quem Somos 2" />
+          <img src="/src/assets/img-quem-somos-2.svg" alt="Imagem Quem Somos 2" />
         </figure>
         <br />
         <h3>Experiência Online</h3>
@@ -67,7 +67,7 @@ function QuemSomos() {
         <p>Em alguns instantes você receberá a confirmação do agendamento</p>
         <br />
         <figure>
-          <img src="img-quem-somos-3.svg" alt="Imagem Quem Somos 3" />
+          <img src="/src/assets/img-quem-somos-3.svg" alt="Imagem Quem Somos 3" />
         </figure>
         <br />
         <h3>Agendas 24 x7</h3>
@@ -132,7 +132,7 @@ function QuemSomos() {
           consultas e teleconsultas para os mesmos.
         </p>
       </div>
-    </section>
+      </section>
   );
 }
 
