@@ -7,6 +7,7 @@ import CadastroEspecialista from "./Pages/Cadastro-especialista";
 import Cliente from "./Pages/Cliente";
 import Termos from "./Pages/Termos";
 import PoliticaPrivacidade from "./Pages/PoliticaPrivacidade";
+import QuemSomos from "./Pages/QuemSomos";
 import Page404 from "./Pages/Page404";
 import PageBase from "./Pages/PageBase";
 
@@ -23,6 +24,7 @@ function AppRoutes() {
         <Route path="cliente" element={<Cliente />} />
         <Route path="Termos" element={<Termos />} />
         <Route path="PoliticaPrivacidade" element={<PoliticaPrivacidade />} />
+        <Route path="QuemSomos" element={<QuemSomos />} />
         <Route path="*" element={<Page404 />} /> {}
         </Route>
       </Routes>
