@@ -51,10 +51,10 @@ function Footer() {
                         <Link to="#" className="footer-link">Faq</Link>
                     </li>
                     <li>
-                        <a href="#" className="footer-link">Termos de Uso</a>
+                        <Link to="/termos" className="footer-link">Termos de Uso</Link>
                     </li>
                     <li>
-                        <a href="#" className="footer-link">Política de privacidade</a>
+                        <Link to="/politicaprivacidade" className="footer-link">Política de privacidade</Link>
                     </li>
                 </ul>
                 <ul className="footer-list">
@@ -62,7 +62,7 @@ function Footer() {
                         <h3>Empresa</h3>
                     </li>
                     <li>
-                        <Link to="#" className="footer-link">Quem Somos</Link>
+                        <Link to="/quemsomos" className="footer-link">Quem Somos</Link>
                     </li>
                 </ul>
                 <ul className="footer-list">
