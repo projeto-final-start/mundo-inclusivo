@@ -13,16 +13,16 @@ const BACKGROUND_STYLE = {
 
 const MODAL_STYLE = {
     position: 'fixed',
-    bottom: '48%',
-    left: '74%',
+    bottom: '45%',
+    left: '73%',
     padding: '20px',
-    backgroundColor: '#fff',
+    backgroundColor: 'rgb(29, 154, 210, 0.68)',
     borderRadius: '15px'
 }
 
 const CLOSE_STYLE = {
     cursor: 'pointer', 
-    color: 'red', fontSize: '2em',   
+    color: 'white', fontSize: '2em',   
 }
 
 function modal({ isOpen,setModalOpen, children }) {
