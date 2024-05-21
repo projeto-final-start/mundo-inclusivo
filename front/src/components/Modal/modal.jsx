@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaSquareXmark } from "react-icons/fa6"
 
+
 const BACKGROUND_STYLE = {
     position: 'fixed',
     top: '0',
@@ -13,7 +14,7 @@ const BACKGROUND_STYLE = {
 
 const MODAL_STYLE = {
     position: 'fixed',
-    bottom: '45%',
+    bottom: '51%',
     left: '73%',
     padding: '20px',
     backgroundColor: 'rgb(29, 154, 210, 0.68)',

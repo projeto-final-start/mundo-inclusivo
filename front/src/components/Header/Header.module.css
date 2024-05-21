@@ -40,14 +40,17 @@
     font-size: 18px;
     font-weight: bold;
     border: 0;
-    background: linear-gradient(90deg, rgba(0, 212, 255, 1) 26%, rgba(9, 9, 121, 1) 65%);
+    background: var(--dark-blue);
+    /* background: linear-gradient(90deg, rgba(0, 212, 255, 1) 26%, rgba(9, 9, 121, 1) 65%); */
     color: white;
     border-radius: 15px;
     cursor: pointer;
 }
 
 .header button:hover {
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+/* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
+background: var(--white);
+color: var(--dark-blue);
 }
 
 .header h4, h3 {

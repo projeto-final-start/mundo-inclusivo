@@ -1,4 +1,4 @@
-import "./Login.css";
+import "./login.css";
 import { Link } from "react-router-dom";
 
 function Login() {
@@ -38,9 +38,12 @@ function Login() {
               </Link>
             </div>
 
-            <button className="botao-login" type="submit">
+            {/* <button className="botao-login" type="submit">
               Login
-            </button>
+            </button> */}
+            <Link to="/" className="btn-home">
+              Agende Online
+            </Link>
 
             <div className="semconta-grupo">
               <label className="semconta" htmlFor="Não tem conta?">
