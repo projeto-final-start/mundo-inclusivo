@@ -120,7 +120,7 @@ function Termos() {
 
          </div>
          <figure>
-         <img className="img-termos" src="/img-termos.svg" alt="Imagem Termos De Uso" />
+         <img className="/src/assets/img-termos" src="/img-termos.svg" alt="Imagem Termos De Uso" />
        </figure>
        </section>
     )
