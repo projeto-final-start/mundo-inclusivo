@@ -3,6 +3,9 @@ import { NavLink } from "react-router-dom";
 import styles from './Header.module.css'
 import { useState } from 'react'
 import Modal from '../Modal/modal'
+import { FaHandHoldingHeart } from "react-icons/fa6"
+import { FaHeartPulse } from "react-icons/fa6"
+
 
 
 function Header() {
@@ -26,7 +29,7 @@ function Header() {
                 </h3>
                 <div>
                     <div className={styles.modalIcones}>
-                        <img src="./src/assets/icones/icone-paciente.svg" alt="" />
+                        <FaHandHoldingHeart />
                         <h4>Cliente</h4>
                     </div>
                     <Link to="/login">Entrar</Link> <br />
@@ -34,7 +37,7 @@ function Header() {
                 </div>
                 <div>
                     <div className={styles.modalIcones}> 
-                        <img src="./src/assets/icones/icone-profissional.svg" alt="" />
+                        <FaHeartPulse />
                         <h4>Profissional da Saúde</h4>
                     </div>    
                         <Link to="/login">Entrar</Link> <br />
