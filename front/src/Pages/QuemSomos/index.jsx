@@ -7,10 +7,10 @@ function QuemSomos() {
         <h1>Conheça o <br />
         Mundo Inclusivo</h1>
         <h2>A melhor plataforma para consultas online.</h2>
-        <figure>
-          <img className="img1" src="/src/assets/img-quem-somos.svg" alt="Imagem Quem Somos" />
-        </figure>
-        <br />
+          <img src="/src/assets/img-quem-somos.svg" alt="Imagem Quem Somos" />      
+        </div>
+
+        <div className="parte2">
         <h3>Diversas especialidades</h3>
         <p>
           Encontre o especialista que precisa em poucos cliques e agende Online.<br />
@@ -19,76 +19,85 @@ function QuemSomos() {
           atendimento após passar pela <br /> consulta ou Teleconsulta. Simples,
           prático e fácil!
         </p>
-       
-        <figure>
+         <figure>
           <img src="/src/assets/img-quem-somos-2.svg" alt="Imagem Quem Somos 2" />
-        </figure>
+        </figure> 
         <br />
-        <h3>Experiência Online</h3>
+        <h3 className="text-quem-somos-1">Experiência Online</h3>
         <br />
-        <p>
+        <p className="text-quem-somos-2">
           Agende online Teleconsultas e acesse o link enviado instantes antes do
           horário <br /> marcado para realizar seu atendimento por vídeo. Tudo isso
           100% online, <br /> com excelente qualidade de áudio e imagem, sem sair de
           casa!
         </p>
         <br />
-
-        <div className="Classe2">
+        </div>
+        
+        <div>
+        <div className="parte3">
             <h2>Marque uma consulta, veja como é simples!</h2>
         </div>
+
         <br />
-        <h3>Faça sua busca</h3>
+        <div className="parte4">
+        <h3 className="text-quem-somos-3">Faça sua busca</h3>
         <br />
-        <p>
+        <p className="text-quem-somos-3-1">
           Na barra de busca selecione a especialidade ou exame, <br /> localidade e
           convênio desejado. <br /> Agora é só clicar no botão buscar.
         </p>
         <br />
-        <h3>Escolha o profissional</h3>
+        <h3 className="text-quem-somos-4">Escolha o profissional</h3>
         <br />
-        <p>
+        <p className="text-quem-somos-4-1">
           Você verá uma lista de profissionais e poderá analisar as avaliações, <br />
           acessar o perfil de quantos profissionais quiser até fazer a sua
           escolha.
         </p>
         <br />
-        <h3>Agende com tranquilidade</h3>
+        <h3 className="text-quem-somos-5">Agende com tranquilidade</h3>
         <br />
-        <p>
+        <p className="text-quem-somos-5-1">
           Digite seu usuário e senha ou caso seja novo por aqui <br /> realize seu 
           cadastro, é bem simples e rápido. Todo o seu <br /> histórico de consultas
           estará disponível na área do <br /> paciente de maneira segura. <br /> Logo após
           finalize agendamento.
         </p>
         <br />
-        <h3>Aguarde a confirmação</h3>
+        <h3 className="text-quem-somos-6">Aguarde a confirmação</h3>
         <br />
-        <p>Em alguns instantes você receberá a confirmação do agendamento</p>
+        <p className="text-quem-somos-6-1">Em alguns instantes você receberá a confirmação do agendamento</p>
+        <br />
+        <br />
+        <br />
+        <br />
         <br />
         <figure>
           <img src="/src/assets/img-quem-somos-3.svg" alt="Imagem Quem Somos 3" />
         </figure>
         <br />
-        <h3>Agendas 24 x7</h3>
+        <h3 className="text-quem-somos-7">Agendas 24 x7</h3>
         <br />
-        <p>
+        <p className="text-quem-somos-7-1">
           Esqueça o horário comercial! No Mundo Inclusivo <br /> você faz o agendamento
           quando quiser.
         </p>
         <br />
-        <h3>Avaliações</h3>
+        <h3 className="text-quem-somos-8">Avaliações</h3>
         <br />
-        <p>
+        <p className="text-quem-somos-8-1">
           Veja as avaliações, comentários e pontos positivos do <br /> atendimento dos
           profissionais.
         </p>
-        <br />
-        <div className="Classe3">
-          <h2>Perguntas Frequentes</h2>
         </div>
         <br />
-        <h2>Eu pago pelo agendamento?</h2>
+        <div className="parte3">
+          <h2>Perguntas Frequentes</h2>
+        </div>
+        <div className="parte5">
+        <br />
+        <h3>Eu pago pelo agendamento?</h3>
         <br />
         <p>
           O agendamento assim como a utilização da plataforma ou aplicativo
@@ -96,7 +105,7 @@ function QuemSomos() {
           consultas ou teleconsultas particulares.
         </p>
         <br />
-        <h2>Posso agendar consulta pelo meu convênio?</h2>
+        <h3>Posso agendar consulta pelo meu convênio?</h3>
         <br />
         <p>
           Sim. Existem profissionais de diversos convênios cadastrados no Mundo
@@ -108,7 +117,7 @@ function QuemSomos() {
           analisar e fazer a inclusão.
         </p>
         <br />
-        <h2>Quais informações preciso fornecer para fazer meu agendamento?</h2>
+        <h3>Quais informações preciso fornecer para fazer meu agendamento?</h3>
         <br />
         <p>
           Você precisa preencher nome completo, e-mail, telefone, data de
@@ -116,7 +125,7 @@ function QuemSomos() {
           um agendamento.
         </p>
         <br />
-        <h2>É seguro marcar um agendamento online?</h2>
+        <h3>É seguro marcar um agendamento online?</h3>
         <br />
         <p>
           Sim, é extremamente seguro. O Mundo Inclusivo segue padrões de
@@ -125,12 +134,13 @@ function QuemSomos() {
           consulta.
         </p>
         <br />
-        <h2>Posso marcar consultas para a minha família?</h2>
+        <h3>Posso marcar consultas para a minha família?</h3>
         <br />
         <p>
           Pode sim, no Mundo Inclusivo é possível incluir dependentes e agendar
           consultas e teleconsultas para os mesmos.
         </p>
+        </div>
       </div>
       </section>
   );
