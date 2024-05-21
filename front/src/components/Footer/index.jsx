@@ -3,14 +3,13 @@ import { Link } from 'react-router-dom'
 import { FaFacebookF } from "react-icons/fa6"
 import { FaInstagram } from "react-icons/fa6"
 import { FaSquareGithub } from "react-icons/fa6"
-import { FaEnvelope } from "react-icons/fa6"
 
 function Footer() {
     return (
         <footer>
             <div id="footer_content">
                 <div id="footer_contacts">
-                    <h1>Redes</h1>
+                    <h2>Redes</h2>
                     <p>Siga-nos</p>
 
                     <div id="footer_social_media">
@@ -35,44 +34,46 @@ function Footer() {
                 </ul>
                 <ul className="footer-list">
                     <li>
-                        <h3>Products</h3>
+                        <h3>Especialista</h3>
                     </li>
                     <li>
-                        <a href="#" className="footer-link">App</a>
+                        <Link to="/login" className="footer-link">Entrar</Link>
                     </li>
                     <li>
-                        <a href="#" className="footer-link">Desktop</a>
+                        <Link to="/Cadastro-especialista" className="footer-link">Criar Conta</Link>
                     </li>
-                    <li>
-                        <a href="#" className="footer-link">Cloud</a>
-                    </li>                    
                 </ul>
                 <ul className="footer-list">
                     <li>
-                        <h3>Products</h3>
+                        <h3>Ajuda</h3>
                     </li>
                     <li>
-                        <a href="#" className="footer-link">App</a>
+                        <Link to="#" className="footer-link">Faq</Link>
                     </li>
                     <li>
-                        <a href="#" className="footer-link">Desktop</a>
+                        <a href="#" className="footer-link">Termos de Uso</a>
                     </li>
                     <li>
-                        <a href="#" className="footer-link">Cloud</a>
-                    </li>                    
+                        <a href="#" className="footer-link">Política de privacidade</a>
+                    </li>
                 </ul>
-                <div id="footer_subscribe">
-                    <h3>Subscribe</h3>
-                    <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    </p>
-                    <div id="input_group">
-                        <input type="email" id="email" />
-                        <button>
-                            <FaEnvelope />
-                        </button>
-                    </div>
-                </div>
+                <ul className="footer-list">
+                    <li>
+                        <h3>Empresa</h3>
+                    </li>
+                    <li>
+                        <Link to="#" className="footer-link">Quem Somos</Link>
+                    </li>
+                </ul>
+                <ul className="footer-list">
+                    <li>
+                        <h1>Contatos</h1>
+                    </li>
+                    <li>
+                        <a href="mailto:voluntariamentefigma@gmail.com" className="footer-link">Email:voluntariamentefigma@gmail.com</a>
+                    </li>
+                    <li className="footer-link">telefone:(81)90000-0000</li>
+                </ul>
             </div>
 
             <div id="footer_copyright">
