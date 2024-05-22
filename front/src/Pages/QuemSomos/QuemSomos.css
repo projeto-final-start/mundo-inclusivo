@@ -1,174 +1,141 @@
-.parte1 {
+/* ESTILOS GERAIS */
+
+section {
     background-color: var(--background);
-    
 }
 
-.parte1 h1 {
-    background-color: var(--background);
-    display: flex;
-    gap: 50px;
-    margin-left: 100px;
-    margin-top: 180px;
-    font-size: 64px;
+.container-quem-somos {
+    max-width: 1280px;
+    padding: 20px;
 }
 
-.parte1 h2 {
+.container-quem-somos img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.section-title {
+    font-size: 32px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* INTRODUCAO */
+
+.bg-introducao {
+    background-color: transparent;
+    width: 100% !important;
+}
+
+.introducao {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
     gap: 20px;
-    margin-left: 100px;
-    font-size: 32px;
+    min-height: 500px;
 }
 
-.parte1 img {
+.main-title {
+    font-size: 62px;
+    max-width: 500px;
+}
+
+.introducao .info-fundo {
+    max-width: 600px;
+}
+
+/* SOBRE */
+
+.sobre {
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    min-height: 500px;
+}
+
+.informacoes {
+    max-width: 500px;
+}
+
+.informacoes-fundo {
+    max-width: 550px;
+}
+
+/* MARCAR CONSULTAS */
+
+.passo-a-passo {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: -300px;
-    margin-left: 1000px;
-    align-items: center;
+    gap: calc(20px * 3);
+    margin: 50px 0;
 }
 
-.parte2 h3 {
-    font-size: 32px;
-    color: #000000;
-    margin-top: 100px;
-    margin-left: 100px;
+.passo {
+    flex: 1;
+    min-width: 400px;
 }
 
-.parte2 p {
-    font-size: 20px;
-    margin-left: 100px;
+.footer-consultas {
+    margin: 20px auto;
+    max-width: 380px;
 }
 
-.parte2 img {
-    width: 444px;
-    height: 444px;
-    display: flex;
-    margin-top: -150px;
-    margin-left: 1200px;
-} 
+/* FAQ */
 
-.text-quem-somos-1 {
-    font-size: 32px;
-    color: #000000;
-    margin-top: 100px;
-    margin-left: 100px;
+.faq {
+    margin: 40px 0px;
 }
 
-.text-quem-somos-2 {
-    font-size: 20px;
-    margin-left: 100px;
+.accordion {
+    background-color: #fff;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    font-weight: bold;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
 }
 
-.parte3 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 28px;  
+.active, .accordion:hover {
+    background-color: #ccc;
 }
 
-.text-quem-somos-3 {
-    font-size: 32px;
-    color: #000000;
-    margin-top: 20px;
-    margin-left: 100px;
-    margin-bottom: -10px;
+.panel {
+    padding: 20px;
+    display: none;
+    background-color: #fff;
+    overflow: hidden;
 }
 
-.text-quem-somos-3-1 {
-    font-size: 20px;
-    margin-left: 100px;
+
+
+@media screen and (max-width: 1280px) {
+    .introducao {
+        justify-content: center;
+    }
+
+    .sobre {
+        justify-content: center;
+    }
+
+    .passo-a-passo {
+        justify-content: center;
+    }
 }
 
-.text-quem-somos-4 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 32px;
-    color: #000000;
-    margin-top: -170px;
-    margin-right: 255px;
-    margin-left: 1000px;
-    margin-bottom: -10px;
-}
-
-.text-quem-somos-4-1 {
-    margin-left: 1150px;
-    font-size: 20px;
-  
-}
-
-.text-quem-somos-5 {
-    font-size: 32px;
-    color: #000000;
-    margin-top: 80px;
-    margin-left: 100px;
-    margin-bottom: -10px;
-}
-
-.text-quem-somos-5-1 {
-    font-size: 20px;
-    margin-left: 100px;
-}
-
-.text-quem-somos-6 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 32px;
-    color: #000000;
-    margin-top: -170px;
-    margin-right: 255px;
-    margin-left: 1030px;
-    margin-bottom: -20px;
-}
-
-.text-quem-somos-6-1 {
-    margin-left: 1150px;
-    font-size: 20px; 
-}
-
-.parte4 img {
-    margin-left: 1200px;
-}
-
-.text-quem-somos-7 {
-    font-size: 32px;
-    color: #000000;
-    margin-top: 30px;
-    margin-left: 100px;
-    margin-bottom: -10px;
-}
-
-.text-quem-somos-7-1 {
-    font-size: 20px;
-    margin-left: 100px;
-}
-
-.text-quem-somos-8 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 32px;
-    color: #000000;
-    margin-top: -140px;
-    margin-right: 255px;
-    margin-left: 840px;
-    margin-bottom: -10px;
-}
-
-.text-quem-somos-8-1 {
-    margin-left: 1150px;
-    font-size: 20px; 
-}
-
-.parte5 h3 {
-    color: #000000;
-    font-size: 28px;
-    margin-left: 100px;
-}
-
-.parte5 p {
-    margin-top: -40px;
-    margin-left: 100px;
-   
+@media screen and (max-width: 500px) {
+    .main-title {
+        font-size: 32px;
+    }
 }
