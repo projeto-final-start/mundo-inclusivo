@@ -1,9 +1,5 @@
 /* ESTILOS GERAIS */
 
-section {
-    background-color: var(--background);
-}
-
 .container-quem-somos {
     max-width: 1280px;
     padding: 20px;

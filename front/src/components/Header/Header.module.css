@@ -37,10 +37,6 @@
     font-size: 18px;
 }
 
-.header a.active {
-    color: red;
-}
-
 .header a:hover {
     color: var(--primary);
 }
