@@ -31,6 +31,7 @@ function AppRoutes() {
         <Route path="agendaespecialista" element={<AgendaEspecialista />} />
         <Route path="perfilcliente" element={<PerfilCliente />} />
         <Route path="encontrarespecialista" element={<EncontrarEspecialista />} />
+        <Route path="recuperacaosenha" element={<RecuperacaoSenha />} />
         <Route path="*" element={<Page404 />} /> {}
         </Route>
       </Routes>
