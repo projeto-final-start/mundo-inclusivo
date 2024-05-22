@@ -10,6 +10,7 @@ import PoliticaPrivacidade from "./Pages/PoliticaPrivacidade";
 import QuemSomos from "./Pages/QuemSomos";
 import AgendaEspecialista from "./Pages/AgendaEspecialista";
 import PerfilCliente from "./Pages/PerfilCliente";
+import EncontrarEspecialista from "./Pages/EncontrarEspecialista";
 import Page404 from "./Pages/Page404";
 import PageBase from "./Pages/PageBase";
 
@@ -29,6 +30,7 @@ function AppRoutes() {
         <Route path="quemSomos" element={<QuemSomos />} />
         <Route path="agendaespecialista" element={<AgendaEspecialista />} />
         <Route path="perfilcliente" element={<PerfilCliente />} />
+        <Route path="encontrarespecialista" element={<EncontrarEspecialista />} />
         <Route path="*" element={<Page404 />} /> {}
         </Route>
       </Routes>

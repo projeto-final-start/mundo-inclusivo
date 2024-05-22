@@ -17,11 +17,12 @@ function Header() {
                 <span><img src="./src/assets/logo.png" alt="Logo" /></span>
             </Link>
             <nav>
-                 <NavLink to="/">Home</NavLink> {/*Testando navlink para estilizar caso não de apagar import do navlink e retornar para link */}
-                <NavLink to="/contato">Contato</NavLink>
-                <NavLink to="/tratamento">Tratamento</NavLink>
-                <NavLink to="/perfilcliente">Perfil Cliente Teste</NavLink>
-            </nav>            
+                <Link to="/">Home</Link> {/*Testando navlink para estilizar caso não de apagar import do navlink e retornar para link */}
+                <Link to="/contato">Contato</Link>
+                <Link to="/tratamento">Tratamento</Link>
+                <Link to="/perfilcliente">Perfil Cliente Teste</Link> {/*Enquanto não se faz rota correta */}
+                <Link to="/encontrarespecialista">Especialistas</Link> {/*Enquanto não se faz rota correta */}
+            </nav>
             <button onClick={() => setOpenModal(true)}>Login/Cadastro</button>
             <Modal isOpen={openModal} setModalOpen={() => setOpenModal(!openModal)}>
                 <h3>
@@ -34,15 +35,15 @@ function Header() {
                         <h4>Cliente</h4>
                     </div>
                     <Link to="/login">Entrar</Link> <br />
-                    <Link to="/cliente">Criar Conta</Link> 
+                    <Link to="/cliente">Criar Conta</Link>
                 </div>
                 <div>
-                    <div className={styles.modalIcones}> 
+                    <div className={styles.modalIcones}>
                         <FaHeartPulse />
                         <h4>Profissional da Saúde</h4>
-                    </div>    
-                        <Link to="/login">Entrar</Link> <br />
-                        <Link to="/cadastroespecialista">Criar Conta</Link> <br /> <br />                    
+                    </div>
+                    <Link to="/login">Entrar</Link> <br />
+                    <Link to="/cadastroespecialista">Criar Conta</Link> <br /> <br />
                 </div>
             </Modal>
         </header>

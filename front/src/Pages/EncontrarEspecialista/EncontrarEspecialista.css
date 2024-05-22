@@ -1,0 +1,41 @@
+.container-encontre-especialistas {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    padding: 20px;
+}
+
+.card-especialista {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    width: 600px;
+    height: 690px;
+    padding: 30px;
+
+    background: #FFFFFF;
+    border-radius: 15px;
+}
+
+.card-calendario {
+    position: relative;
+    width: 600px;
+    height: 690px;
+    padding: 30px;
+
+    background: #FFFFFF;
+    border-radius: 15px;
+}
+
+.card-especialista img {
+    display: flex;
+    width: 50%;
+    height: 35%;
+    border-radius: 100%;
+    
+}
+
+.lista-nome ul{
+    list-style: none;
+}
+
