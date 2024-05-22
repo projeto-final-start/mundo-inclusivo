@@ -9,13 +9,9 @@ function CadastroEspecialista() {
     return (
         <>
             <div className="cadastro-page">
-                <figure>
-                    <img src="" alt="imagem de fundo" />
-                </figure>
 
                 <div className="box-cad1">
                     <h1 className="cadastro">Cadastro</h1>
-                    
                     <form>
                         <input
                             className="nome-cad"
@@ -53,48 +49,54 @@ function CadastroEspecialista() {
                             <option value="masculino">Masculino</option>
                             <option value="outro">Outro</option>
                         </select>
+
+
+
+
+                        <div className="Botao-tab">
+                            <div
+                                className={`tab ${activeTab === 'psicologo' ? 'active' : ''}`}
+                                onClick={() => setActiveTab('psicologo')}
+                            >
+                                Psicólogo(a)
+                            </div>
+                            <div
+                                className={`tab ${activeTab === 'psicanalista' ? 'active' : ''}`}
+                                onClick={() => setActiveTab('psicanalista')}
+                            >
+                                Psicanalista
+                            </div>
+                        </div>
+
+                        {activeTab && (
+                            <div>
+                                {activeTab === 'psicologo' && (
+                                    <form>
+                                        <input className="crp-cad" type="text" id="crp" placeholder="CRP" />
+                                        <input className="ano-cad" type="text" id="ano" placeholder="Em que ano você começou a realizar consulta" />
+                                    </form>
+                                )}
+
+                                {activeTab === 'psicanalista' && (
+                                    <form>
+                                        <input className="crp-cad" type="text" id="crp" placeholder="CRP" />
+                                        <input className="ano-cad" type="text" id="ano" placeholder="Em que ano você começou a realizar consulta?" />
+
+                                    </form>
+                                )}
+                            </div>
+                        )}
                     </form>
-                
-                
-
-                <div className="Botao">
-                    <div
-                        className={`tab ${activeTab === 'psicologo' ? 'active' : ''}`}
-                        onClick={() => setActiveTab('psicologo')}
-                    >
-                        Psicólogo(a)
+                    <div className="btn-">
+                        <Link to="/agendaespecialista" className="botao-cadastro">
+                            Quero me cadastrar
+                        </Link>
                     </div>
-                    <div
-                        className={`tab ${activeTab === 'psicanalista' ? 'active' : ''}`}
-                        onClick={() => setActiveTab('psicanalista')}
-                    >
-                        Psicanalista
-                    </div>
+                   
                 </div>
-
-                {activeTab && (
-                    <div>
-                        {activeTab === 'psicologo' && (
-                            <form>
-                                <input className="crp-cad" type="text" id="crp" placeholder="CRP" />
-                                <input className="ano-cad" type="text" id="ano" placeholder="Em que ano você começou a realizar consulta" />
-                            </form>
-                        )}
-
-                        {activeTab === 'psicanalista' && (
-                            <form>
-                                <input className="crp-cad" type="text" id="crp" placeholder="CRP" />
-                                <input className="ano-cad" type="text" id="ano" placeholder="Em que ano você começou a realizar consulta" />
-
-                            </form>
-                        )}
-                    </div>
-                )}
-
-                <Link to="/agendaespecialista" className="botao-cadastro">
-                    Quero me cadastrar
-                </Link>
-                </div>
+                <figure>
+                    <img src="/src/assets/fotologincad.svg" alt="Foto" className="foto" />
+                </figure>
             </div>
         </>
     );

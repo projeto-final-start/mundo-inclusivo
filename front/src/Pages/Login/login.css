@@ -1,93 +1,87 @@
 .caixa-login {
-    width: 1204px;
-    height: 600px;
-    margin-top: -720px;
-  
-  
-    
-    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
-    border-radius: 77px;
-  }
-  
-  figure {
-    max-width: 1440px;
-  }
-  
-  .form-caixa {
-    position: absolute;
-    right: 170px;
-    align-items: center;
-    margin-block: 200px;
-  
-  
-  }
-  
-  .email,
-  .senha {
-    width: 100%;
-    padding: 8px;
-    border-radius: 330.5px;
-    border: 1px solid #333333;
-    margin-bottom: 10px;
-  }
-  
-  .login {
-    margin-left: 30%;
-    line-height: 80px;
-    font-family: 'Jost';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 48px;
-    line-height: -69px;
-    margin-top: -40px;
-  
-    color: #3969C8;
-  
-  }
-  
-  input {
-    margin-left: px;
-  }
-  
-  .caixa {
-    display: flex;
-    align-items: center;
-  
-  }
-  
-  .remember-login,
-  .semsenha {
-    flex: 1;
-    margin-bottom: 2px;
-    text-decoration: none;
-    margin-top: 1px;
-    margin-left: 30px;
-  }
-  
-  .botao-login {
-    width: 288px;
-    height: 38px;
-    position: relative;
-    border-radius: 15px;
-    background: rgb(0, 212, 255);
-    background: linear-gradient(90deg, rgba(0, 212, 255, 1) 26%, rgba(9, 9, 121, 1) 65%);
-    cursor: pointer;
-    color: rgb(243, 242, 242);
-    font-size: large;
-    margin-left: 30px;
-    margin-top: 20px;
-  
-  }
-  
-  .semconta-grupo {
-    display: flex;
-  }
-  
-  .semconta,
-  .criarconta {
-    flex: 1;
-    margin-bottom: 2px;
-    text-decoration: none;
-    margin-top: 1px;
-    margin-left: 30px;
-  }
+  width: 1004px;
+  height: 500px;
+  margin-top: 50px;
+  background-color: rgb(255, 253, 253);
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 77px;
+}
+
+
+.form-caixa {
+  position: absolute;
+  margin-left: 40%;
+  margin-top: 8%;
+}
+
+.email,
+.senha {
+  width: 100%;
+  padding: 8px;
+  border-radius: 15px;
+  border: 1px solid #333333;
+  margin-bottom: 10px;
+}
+
+.login {
+  margin-left: 2%;
+  line-height: 80px;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: -69px;
+  margin-top: -40px;
+
+  color: #3969C8;
+
+}
+
+.caixa {
+  display: flex;
+  align-items: center;
+
+}
+
+
+.remember-login,
+.semsenha {
+  margin-bottom: 10px;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-right: 15px;
+}
+
+.btn-login {
+  width: 270px;
+  height: 40px;
+  font-size: 18px;
+  font-weight: bold;
+  border: 0;
+  background: var(--dark-blue);
+  color: white;
+  border-radius: 15px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.btn-login:hover {
+  background: var(--white);
+  color: var(--dark-blue);
+}
+
+
+.semconta-grupo {
+  display: flex;
+}
+
+.semconta,
+.criarconta {
+  margin-bottom: 10px;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-right: 20px;
+}

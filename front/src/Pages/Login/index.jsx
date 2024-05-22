@@ -1,26 +1,23 @@
 import "./login.css";
 import { Link } from "react-router-dom";
+import { MdOutlineMail } from "react-icons/md";
 
 function Login() {
   return (
     <>
-      <figure>
-        <img
-          src="./src/assets/background.svg"
-          alt="background-img"
-          className="background-image"
-        />
-      </figure>
+
       <div className="login-page">
-        <div className="caixa-login">
+        <div className="caixa-login" >
           <form className="form-caixa">
             <h1 className="login">Login</h1>
             <input
               className="email"
               type="email"
               id="email-login"
-              placeholder="E-mail ou CPF"
+              placeholder="E-mail ou CPF "
+
             />
+
             <input
               className="senha"
               type="password"
@@ -40,8 +37,8 @@ function Login() {
 
             {/* <button className="botao-login" type="submit">
               Login
-            </button> */}
-            <Link to="/" className="btn-home">
+            </button> -----Vamos alterar------- */}
+            <Link to="/" className="btn-login">
               Agende Online
             </Link>
 
@@ -56,7 +53,7 @@ function Login() {
           </form>
 
           <figure>
-            <img src="front\public\fotologin.svg" alt="Foto" className="foto" />
+            <img src="/src/assets/fotologin.svg" alt="Foto" className="foto" />
           </figure>
         </div>
       </div>
