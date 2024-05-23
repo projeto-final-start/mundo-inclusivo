@@ -11,6 +11,7 @@ import QuemSomos from "./Pages/QuemSomos";
 import AgendaEspecialista from "./Pages/AgendaEspecialista";
 import PerfilCliente from "./Pages/PerfilCliente";
 import EncontrarEspecialista from "./Pages/EncontrarEspecialista";
+import RecuperacaoSenha from "./Pages/RecuperacaoSenha";
 import Page404 from "./Pages/Page404";
 import PageBase from "./Pages/PageBase";
 

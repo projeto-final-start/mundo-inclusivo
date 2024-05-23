@@ -19,7 +19,7 @@ function Header() {
                 <Link to="/">Home</Link> {/*Testando navlink para estilizar caso não de apagar import do navlink e retornar para link */}
                 <Link to="/contato">Contato</Link>
                 <Link to="/tratamento">Tratamento</Link>
-                <Link to="/recuperacaosenha">Recuperação de Senha</Link> {/*Enquanto não se faz rota correta */}
+                <Link to="/recuperacaosenha">SenhaTeste</Link> {/*Enquanto não se faz rota correta */}
                 <Link to="/encontrarespecialista">Especialistas</Link> {/*Enquanto não se faz rota correta */}
             </nav>
             <button onClick={() => setOpenModal(true)}>Login/Cadastro</button>
@@ -49,3 +49,5 @@ function Header() {
 
     )
 }
+
+export default Header

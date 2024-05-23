@@ -38,7 +38,7 @@ function Login() {
             {/* <button className="botao-login" type="submit">
               Login
             </button> -----Vamos alterar------- */}
-            <Link to="/" className="btn-login">
+            <Link to="/EncontrarEspecialista" className="btn-login">
               Agende Online
             </Link>
 
