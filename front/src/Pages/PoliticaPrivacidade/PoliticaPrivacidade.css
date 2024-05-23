@@ -1,4 +1,31 @@
-h2 {
-    margin-top: 100px;
-    margin-left: 100px;
+section {
+    background-color: aliceblue;
+    max-width: 1920px;
+    padding: 20px;
+}
+
+.title-pp {
+    margin-left: 20px;
+}
+
+.subtitle-pp {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+
+.topicos-pp {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.paragrafos-pp {
+    margin-left: 20px;
+    margin-top: -10px
+}
+
+.list-pp {
+    margin-left: 40px;
+    margin-bottom: 20px;
 }
