@@ -1,4 +1,6 @@
-.mensagem-confirmacao{
+
+
+.recup-page {
     width: 1004px;
     height: 500px;
     margin-top: 50px;
@@ -6,6 +8,78 @@
     box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
     border-radius: 77px;
 }
-.recuperacao-senha{
 
+.recuperacao-senha {
+    position: absolute;
+    margin-left: 28%;
+    margin-top: 50px;
+  }
+
+.h2rs {
+    margin-left: 110px;
+    line-height: 80px;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: -69px;
+    margin-top: 60px;
+  
+    color: #3969C8;
+}
+
+
+.h3rs {
+    margin-left: 116px;
+    font-size: 14px;
+
+}
+
+::placeholder {
+    text-align: center;
+}
+
+.btn-rec {
+    width: 270px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 0;
+    background: var(--dark-blue);
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 16px;
+    margin-left: 155px;
+    margin-bottom: 15px;
+}
+
+.btn-rec:hover {
+    background: var(--white);
+    color: var(--dark-blue);
+}
+
+.email-rec {
+    width: 350px;
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid #333333;
+    align-items: center;
+    margin-left: 115px;
+}
+.btn-senha-volta{
+    margin-left: 275px;
+
+    
+}
+
+.mensagem-confirmacao {
+    margin-top: 15px;
+    margin-left: 115px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #b7c9ef;
+    border-radius: 10px;
 }
