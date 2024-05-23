@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom'
-import { NavLink } from "react-router-dom";
 import styles from './Header.module.css'
 import { useState } from 'react'
 import Modal from '../Modal/modal'
