@@ -9,6 +9,9 @@ function CadastroEspecialista() {
     return (
         <>
             <div className="cadastro-page">
+            <figure>
+                    <img src="/src/assets/fotologincad.svg" alt="Foto" className="fotocad" />
+                </figure>
 
                 <div className="box-cad1">
                     <h1 className="cadastro">Cadastro</h1>
@@ -67,13 +70,13 @@ function CadastroEspecialista() {
                                 Psicanalista
                             </div>
                         </div>
-
+                        
                         {activeTab && (
                             <div>
                                 {activeTab === 'psicologo' && (
                                     <form>
                                         <input className="crp-cad" type="text" id="crp" placeholder="CRP" />
-                                        <input className="ano-cad" type="text" id="ano" placeholder="Em que ano você começou a realizar consulta" />
+                                        <input className="ano-cad" type="text" id="ano" placeholder="Em que ano você começou a realizar consulta?" />
                                     </form>
                                 )}
 
@@ -94,9 +97,7 @@ function CadastroEspecialista() {
                     </div>
                    
                 </div>
-                <figure>
-                    <img src="/src/assets/fotologincad.svg" alt="Foto" className="foto" />
-                </figure>
+                
             </div>
         </>
     );

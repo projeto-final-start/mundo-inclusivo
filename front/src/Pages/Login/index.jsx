@@ -30,7 +30,7 @@ function Login() {
               <label className="remember-login" htmlFor="lembre-me">
                 Lembre-me
               </label>
-              <Link className="semsenha" to="#">
+              <Link className="semsenha" to="/RecuperacaoSenha">
                 Esqueceu a senha?
               </Link>
             </div>
@@ -38,7 +38,7 @@ function Login() {
             {/* <button className="botao-login" type="submit">
               Login
             </button> -----Vamos alterar------- */}
-            <Link to="/" className="btn-login">
+            <Link to="/EncontrarEspecialista" className="btn-login">
               Agende Online
             </Link>
 
@@ -46,14 +46,14 @@ function Login() {
               <label className="semconta" htmlFor="Não tem conta?">
                 Não tem conta?
               </label>
-              <Link className="criarconta" to="#">
+              <Link className="criarconta" to="/Cliente">
                 Criar nova conta
               </Link>
             </div>
           </form>
 
           <figure>
-            <img src="/src/assets/fotologin.svg" alt="Foto" className="foto" />
+            <img src="/src/assets/fotologin.svg" alt="Foto" className="fotologin" />
           </figure>
         </div>
       </div>

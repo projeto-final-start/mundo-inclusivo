@@ -1,11 +1,15 @@
 .cadastro-page {
-    margin-top: 50px;
+    margin-top: 20px;
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 1004px;
-    height: 600px;
+    height: 590px;
 
+}
+
+.fotocad{
+    margin-top: 30px;
 }
 
 .cadastro {
@@ -16,7 +20,7 @@
     font-weight: 400;
     font-size: 48px;
     line-height: -69px;
-    margin-top: -40px;
+    margin-top: -553px;
     margin-left: 65%;
     color: #3969C8;
 }
