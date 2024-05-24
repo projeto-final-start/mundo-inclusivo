@@ -1,4 +1,45 @@
-h2 {
-    margin-top: 100px;
-    margin-left: 100px;
+section {
+    background-color: aliceblue;
+    max-width: 1920px;
+    padding: 20px;
+}
+
+.title-termos-usuario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.title-termos-especialista {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.subtitle-termos-usuario {
+    margin-top: 20px;
+}
+
+.subtitle-termos-especialista {
+    margin-top: 40px;
+}
+.topicos-termos {
+   margin-top: 20px; 
+}
+
+.paragrafos-termos {
+    margin-top: -20px;
+}
+
+.line {
+    margin-top: 50px;
+}
+
+.img-termos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 450px;
 }

@@ -34,12 +34,12 @@ function Cliente() {
 
 
           <div className="Btn-cliente"></div>
-          <Link className="botaocliente">
+          <Link to="/perfilcliente" className="botaocliente">
             Quero me cadastrar
           </Link>
         </div>
         <figure className="fotocliente">
-            <img src="/src/assets/fotologincliente.svg" alt="Foto" className="foto" />
+            <img src="/src/assets/fotologincliente.svg" alt="Foto" className="fotocadastrecliente" />
           </figure>
       </div>
     </>

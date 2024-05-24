@@ -48,7 +48,7 @@ function Footer() {
                         <h3>Ajuda</h3>
                     </li>
                     <li>
-                        <Link to="#" className="footer-link">Faq</Link>
+                        <Link to="/faq" className="footer-link">Faq</Link>
                     </li>
                     <li>
                         <Link to="/termos" className="footer-link">Termos de Uso</Link>
