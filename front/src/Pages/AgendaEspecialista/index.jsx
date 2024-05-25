@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import "./Agenda.css";
 
-function AgendaEspecialista() { 
+function AgendaEspecialista() {
+    return (
+        <p>testex</p>
+    ) 
 }
 export default AgendaEspecialista;
