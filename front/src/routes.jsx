@@ -1,4 +1,8 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import createStore from 'react-auth-kit/createStore';
+import AuthProvider from 'react-auth-kit';
+import AuthOutlet from '@auth-kit/react-router/AuthOutlet';
+
 import Home from "./Pages/Home";
 import Contato from "./Pages/Contato";
 import Tratamento from "./Pages/Tratamento";
@@ -13,32 +17,50 @@ import AgendaEspecialista from "./Pages/AgendaEspecialista";
 import PerfilCliente from "./Pages/PerfilCliente";
 import EncontrarEspecialista from "./Pages/EncontrarEspecialista";
 import RecuperacaoSenha from "./Pages/RecuperacaoSenha";
+import DashboardBase from "./Dashboard/components/DashboardBase";
 import Page404 from "./Pages/Page404";
 import PageBase from "./Pages/PageBase";
 
+const authStore = createStore({
+  authName: '_auth',
+  authType: 'cookie',
+  cookieDomain: window.location.hostname,
+  cookieSecure: window.location.protocol === 'https:',
+});
+
 function AppRoutes() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path='/' element={ <PageBase /> }>
-        <Route index element={<Home />} />
-        <Route path="contato" element={<Contato />} />
-        <Route path="tratamento" element={<Tratamento />} />
-        <Route path="login" element={<Login />} />
-        <Route path="cadastroespecialista" element={<CadastroEspecialista />} />
-        <Route path="cliente" element={<Cliente />} />
-        <Route path="termos" element={<Termos />} />
-        <Route path="politicaprivacidade" element={<PoliticaPrivacidade />} />
-        <Route path="quemSomos" element={<QuemSomos />} />
-        <Route path="faq" element={<FAQ/>} />
-        <Route path="agendaespecialista" element={<AgendaEspecialista />} />
-        <Route path="perfilcliente" element={<PerfilCliente />} />
-        <Route path="encontrarespecialista" element={<EncontrarEspecialista />} />
-        <Route path="recuperacaosenha" element={<RecuperacaoSenha />} />
-        <Route path="*" element={<Page404 />} /> {}
-        </Route>
-      </Routes>
-    </BrowserRouter>
+    <AuthProvider store={authStore} >
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<PageBase />}>
+            <Route index element={<Home />} />
+            <Route path="contato" element={<Contato />} />
+            <Route path="tratamento" element={<Tratamento />} />
+            <Route path="login" element={<Login />} />
+            <Route path="cadastroespecialista" element={<CadastroEspecialista />} />
+            <Route path="cliente" element={<Cliente />} />
+            <Route path="encontrarespecialista" element={<EncontrarEspecialista />} />
+            <Route path="termos" element={<Termos />} />
+            <Route path="politicaprivacidade" element={<PoliticaPrivacidade />} />
+            <Route path="quemSomos" element={<QuemSomos />} />
+            <Route path="faq" element={<FAQ />} />
+            <Route path="perfilcliente" element={<PerfilCliente />} />
+            <Route path="recuperacaosenha" element={<RecuperacaoSenha />} />
+
+            <Route path="*" element={<Page404 />} />
+          </Route>
+
+          <Route element={<AuthOutlet fallbackPath='login' />}>
+            {/* Rotas autenticadas */}
+            <Route path="/dashboard" element={<DashboardBase />}>
+              <Route path="agendaespecialista" element={<AgendaEspecialista />} />
+            </Route>
+          </Route>
+          
+        </Routes>
+      </BrowserRouter>
+    </AuthProvider>
   );
 }
 

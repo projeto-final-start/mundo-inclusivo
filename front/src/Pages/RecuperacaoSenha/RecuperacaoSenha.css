@@ -1,4 +1,8 @@
+.foto-recuperacao-senha{
+    position: absolute;
+    margin-left: 15px;
 
+}
 
 .recup-page {
     width: 1004px;
@@ -11,7 +15,7 @@
 
 .recuperacao-senha {
     position: absolute;
-    margin-left: 28%;
+    margin-left: 32%;
     margin-top: 50px;
   }
 
