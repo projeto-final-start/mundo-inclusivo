@@ -26,10 +26,10 @@ function Footer() {
                         <Link to="/login" className="footer-link">Entrar</Link>
                     </li>
                     <li>
-                        <Link to="/cadastro-paciente" className="footer-link">Criar Conta</Link>
+                        <Link to="/cliente" className="footer-link">Criar Conta</Link>
                     </li>
                     <li>
-                        <Link href="#" className="footer-link">Especialistas</Link>
+                        <Link to="encontrarespecialista" className="footer-link">Especialistas</Link>
                     </li>
                 </ul>
                 <ul className="footer-list">
@@ -40,7 +40,7 @@ function Footer() {
                         <Link to="/login" className="footer-link">Entrar</Link>
                     </li>
                     <li>
-                        <Link to="/cadastro-especialista" className="footer-link">Criar Conta</Link>
+                        <Link to="/cadastroespecialista" className="footer-link">Criar Conta</Link>
                     </li>
                 </ul>
                 <ul className="footer-list">

@@ -5,8 +5,8 @@ function Home() {
   return (
     <section className="home">
       <div>
-        <h1>Sintonia</h1>
-        <span>Mental</span>
+        <h1>Mundo</h1>
+        <span>Inclusivo</span>
         <p>
           Consultas humanizadas e seguras <br /> para você e sua família
         </p>
