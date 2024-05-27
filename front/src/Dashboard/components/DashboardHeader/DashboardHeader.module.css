@@ -42,14 +42,14 @@
 }
 
 .header button {
-    width: 250px;
+    width: 50px;
     height: 50px;
     font-size: 18px;
     font-weight: bold;
     border: 0;
     background: var(--dark-blue);
     color: white;
-    border-radius: 15px;
+    border-radius: 100px;
     cursor: pointer;
 }
 
@@ -79,3 +79,7 @@ color: var(--dark-blue);
     height: 30px;
 }
 
+.btn-perfil{
+    height: 200px;
+    width: 200px;
+}

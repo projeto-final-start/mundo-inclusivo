@@ -18,6 +18,7 @@ import PerfilCliente from "./Pages/PerfilCliente";
 import EncontrarEspecialista from "./Pages/EncontrarEspecialista";
 import RecuperacaoSenha from "./Pages/RecuperacaoSenha";
 import DashboardBase from "./Dashboard/components/DashboardBase";
+import DisponibilidadeEspecialista from "./Pages/DisponibilidadeEspecialista";
 import Page404 from "./Pages/Page404";
 import PageBase from "./Pages/PageBase";
 
@@ -54,6 +55,7 @@ function AppRoutes() {
           <Route element={<AuthOutlet fallbackPath='login' />}>
             {/* Rotas autenticadas */}
             <Route path="/dashboard" element={<DashboardBase />}>
+            <Route path="/dashboard/disponibilidadeespecialista" element={<DisponibilidadeEspecialista />} />
               <Route path="agendaespecialista" element={<AgendaEspecialista />} />
             </Route>
           </Route>

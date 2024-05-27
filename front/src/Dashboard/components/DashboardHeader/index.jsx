@@ -4,8 +4,9 @@ import { useNavigate } from "react-router-dom";
 import styles from '../DashboardHeader/DashboardHeader.module.css';
 import { useState } from 'react'
 import Modal from '../../../components/Modal/modal';
-import { FaHandHoldingHeart } from "react-icons/fa6"
+import { FaRegUser } from "react-icons/fa6";
 import { FaHeartPulse } from "react-icons/fa6"
+import { HiOutlineUserCircle } from "react-icons/hi2";
 
 
 function DashboardHeader() {
@@ -24,36 +25,29 @@ function DashboardHeader() {
         <span><img src="../src/assets/logo.png" alt="Logo" /></span>
       </Link>
       <nav>
-        <Link to="/">Home</Link> {/*Testando navlink para estilizar caso não de apagar import do navlink e retornar para link */}
-        <Link to="/contato">Contato</Link>
-        <Link to="/tratamento">Tratamento</Link>
-        <Link to="/recuperacaosenha">SenhaTeste</Link> {/*Enquanto não se faz rota correta */}
-        <Link to="/encontrarespecialista">Especialistas</Link> {/*Enquanto não se faz rota correta */}
+        <Link to="/">Agenda</Link> {/*Testando navlink para estilizar caso não de apagar import do navlink e retornar para link */}
+        <Link to="/disponibilidadeespecialista">Disponibilidade</Link>
+        <Link to="/tratamento">Cliente</Link>
       </nav>
-      <button onClick={() => setOpenModal(true)}>Login/Cadastro</button>
+      <div className='btn-modal'>
+      <button className="btn-perfil" onClick={() => setOpenModal(true)}><HiOutlineUserCircle /></button>
+      </div>
       <Modal isOpen={openModal} setModalOpen={() => setOpenModal(!openModal)}>
-        <h3>
-          Para visualizar suas consultas e agendar, <br />
-          acesse sua conta:
-        </h3>
         <div>
           <div className={styles.modalIcones}>
-            <FaHandHoldingHeart />
-            <h4>Cliente</h4>  
+          <FaRegUser />
+            <Link to="/login">  Minha conta</Link> <br />
           </div>
-          <Link to="/login">Entrar</Link> <br />
-          <Link to="/cliente">Criar Conta</Link>
         </div>
         <div>
           <div className={styles.modalIcones}>
             <FaHeartPulse />
-            <h4>Profissional da Saúde</h4>
+            <Link to="/login">Assinatura</Link> <br />
           </div>
-          <Link to="/login">Entrar</Link> <br />
-          <Link to="/cadastroespecialista">Criar Conta</Link> <br /> <br />
+          
         </div>
-        <div>
-            <button type='button' onClick={logout}>Sair</button>
+        <div className='btn-sair'>
+            <button className="btn-sairmodal" type='button' onClick={logout}>Sair</button>
         </div>
       </Modal>
     </header>
