@@ -19,7 +19,7 @@ function Calendario() {
                 center: "title",
                 end: "dayGridMonth,timeGridWeek,timeGridDay",
             }}
-            height={'50vh'}
+            height={'40vh'}
             
 
         />
