@@ -16,11 +16,11 @@ function Header() {
                 <span><img src="./src/assets/logo.png" alt="Logo" /></span>
             </Link>
             <nav>
-                <Link to="/">Home</Link> {/*Testando navlink para estilizar caso não de apagar import do navlink e retornar para link */}
-                <Link to="/contato">Contato</Link>
-                <Link to="/tratamento">Tratamento</Link>
-                <Link to="/recuperacaosenha">SenhaTeste</Link> {/*Enquanto não se faz rota correta */}
-                <Link to="/encontrarespecialista">Especialistas</Link> {/*Enquanto não se faz rota correta */}
+                <Link to="/">Home</Link> 
+                <Link to="/faq">Perguntas</Link>
+                <Link to="/quemsomos">Quem Somos</Link>
+                {/* <Link to="/recuperacaosenha">SenhaTeste</Link> {/*Enquanto não se faz rota correta */}
+                {/* <Link to="/encontrarespecialista">Especialistas</Link> Enquanto não se faz rota correta */} 
             </nav>
             <button onClick={() => setOpenModal(true)}>Login/Cadastro</button>
             <Modal isOpen={openModal} setModalOpen={() => setOpenModal(!openModal)}>
