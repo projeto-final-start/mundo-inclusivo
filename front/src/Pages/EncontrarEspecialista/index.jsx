@@ -5,38 +5,22 @@ import Calendario from "../../components/Calendario/Calendario";
 function EncontrarEspecialista() {
     return (
         <section>
-            <div className="container-encontre-especialistas">
+            <div className="profissional-info-container-horizontal">
                 <div className="card-especialista">
-                    <img src="/src/assets/perfil.png" alt="" />
-                    <div className="lista-nome">
-                        <ul>
-                            <li>
-                                <h2>Confúcio Dos Santos</h2> <br />
-                            </li>
-                            <li>
-                                <p>
-                                    Terapeuta - 24 anos de experiência - Pós-Graduado
-                                </p>
-                            </li>
-                        </ul>
-                    </div>
-                    <div className="lista-habilidades">
-                        <ul>
-                            <li>
-                                <p>Ansiedade</p>
-                            </li>
-                            <li>
-                                <p>Assetividade</p>
-                            </li>
-                            <li>
-                                <p>Autoconhecimento</p>
-                            </li>
-                        </ul>
+                    <div className="titulo-profissional-imagem">
+                        <div>
+                            <img src="src/assets/foto-perfil.png" alt="" />
+                        </div>
+                        <div>
+
+                        </div>
                     </div>
                 </div>
-                <div className="card-calendario"><Calendario /></div>
             </div>
-        </section>
+
+            <div className="card-calendario"><Calendario /></div>
+
+        </section >
     )
 }
 
