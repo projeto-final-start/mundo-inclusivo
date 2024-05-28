@@ -6,7 +6,7 @@ import Calendario from "../../components/Calendario/Calendario";
 function EncontrarEspecialista() {
     return (
         <section>
-            <div className="search-tag"><p> <img src="src/assets/icones/search.png" alt="" />  Procure por nome, especialidade, motivo...</p></div>
+            <div className="search-tag"><p> <img src="src/assets/icones/search.png" alt="" /> Procure por nome, especialidade, motivo...</p></div>
             <div className="pagina-especialista">
 
                 <div className="card-especialista">
@@ -23,7 +23,7 @@ function EncontrarEspecialista() {
                     </div>
                     <div className="ratings">
                         <div>
-                            <span>⭐ 4.9 (20 comentários)</span><br />
+                            <span>⭐ 4.9 (20 comentários)</span><br/>
                             <span>📅 115 Atendimentos</span>
                         </div>
                         <div className="price">R$ 100</div>
