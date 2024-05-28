@@ -55,7 +55,11 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
-    
+    cursor: pointer;    
+  }
+
+  .ratings:hover {
+    text-decoration: underline;
   }
   
   .price {
@@ -78,6 +82,7 @@
     color: white;
     border-radius: 15px;
     cursor: pointer;
+    margin-top: 10px;
   }
 
   .btn-agendar:hover {
@@ -86,15 +91,13 @@
   }
 
   .search-tag {
-    display: flex;
-    align-items: center;
     background-color: var(--white);
-    padding: 20px;
+    padding: 5px;
   }
 
   .search-tag img {
     cursor: pointer;
-    height: 25px;
-    width: 20px;
+    height: 15px;
+    width: 12px;
   }
   

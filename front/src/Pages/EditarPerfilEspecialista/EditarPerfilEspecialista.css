@@ -1,0 +1,42 @@
+/* .account-page-container {
+    width: 300%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+  }
+  
+  .account-page-title {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .account-page-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .account-page-form .MuiFormControl-root {
+    margin-bottom: 16px;
+  }
+  
+  .account-page-avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .account-page-avatar img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .account-page-button {
+    margin-top: 20px;
+  }
+   */

@@ -19,6 +19,8 @@ function Header() {
                 <Link to="/">Home</Link> 
                 <Link to="/faq">Perguntas</Link>
                 <Link to="/quemsomos">Quem Somos</Link>
+                <Link to="/editarPerfilespecialista">Teste editar perfil especialista</Link>
+                
                 {/* <Link to="/recuperacaosenha">SenhaTeste</Link> {/*Enquanto não se faz rota correta */}
                 {/* <Link to="/encontrarespecialista">Especialistas</Link> Enquanto não se faz rota correta */} 
             </nav>
