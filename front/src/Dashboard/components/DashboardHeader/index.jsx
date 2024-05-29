@@ -27,7 +27,7 @@ function DashboardHeader() {
       <nav>
         <Link to="/">Agenda</Link> {/*Testando navlink para estilizar caso não de apagar import do navlink e retornar para link */}
         <Link to="/disponibilidadeespecialista">Disponibilidade</Link>
-        <Link to="/tratamento">Cliente</Link>
+        <Link to="/clienteespecialista">Cliente</Link>
       </nav>
       <div className='btn-modal'>
       <button className="btn-perfil" onClick={() => setOpenModal(true)}><HiOutlineUserCircle /></button>
