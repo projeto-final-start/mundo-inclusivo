@@ -73,17 +73,25 @@
   }
 
   .btn-agendar {
-    width: 80px;
+    
+    width: 250px;
     height: 50px;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: bold;
     border: 0;
     background: var(--dark-blue);
     color: white;
     border-radius: 15px;
     cursor: pointer;
-    margin-top: 10px;
-  }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-left: 150px;
+    margin-top: 20px;
+   
+}
+  
 
   .btn-agendar:hover {
     background: var(--primary);

@@ -1,5 +1,6 @@
 import "./EncontrarEspecialista.css"
 import Calendario from "../../components/Calendario/Calendario";
+import { Link } from 'react-router-dom'
 
 
 
@@ -33,7 +34,7 @@ function EncontrarEspecialista() {
                     </div>
                 </div>
                 <div className="card-especialista"><Calendario></Calendario>
-                    <button className="btn-agendar">Agendar</button>
+                    <Link to="/perfilcompleto" className="btn-agendar" >Agendar</Link>
                 </div>
             </div>
             <div className="pagina-especialista">
@@ -63,7 +64,7 @@ function EncontrarEspecialista() {
                     </div>
                 </div>
                 <div className="card-especialista"><Calendario></Calendario>
-                <button className="btn-agendar">Agendar</button>
+                <Link to="/perfilcompleto" className="btn-agendar" >Agendar</Link>
                 </div>
             </div>
         </section>

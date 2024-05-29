@@ -1,5 +1,6 @@
 import React from 'react';
 import "./PerfilCompleto.css";
+import { Link } from 'react-router-dom'
 
 function PerfilCompleto() {
   return (
