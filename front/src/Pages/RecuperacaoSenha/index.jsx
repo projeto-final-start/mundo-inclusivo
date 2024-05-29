@@ -13,7 +13,7 @@ function RecuperacaoSenha() {
     return (
         <div className='recup-page'>
             <figure>
-            <img src="/src/assets/fotorecsenha.svg" alt="Foto" className="foto-recuperacao-senha" />
+            <img src="src/assets/fotorecsenha.svg" alt="Foto" className="foto-recuperacao-senha" />
           </figure>
             <form className="recuperacao-senha" onSubmit={handleSubmit}>
                 <h2 className='h2rs'>Recuperação de Senha</h2>

@@ -1,4 +1,8 @@
 import './PerfilCompleto.css';
+<<<<<<< HEAD
+=======
+import { Link } from "react-router-dom";
+>>>>>>> 4611f927d73d2870e658eddb5b06a3854ae3b731
 
 function PerfilCompleto() {
   return (
@@ -144,7 +148,11 @@ do sono. Agende sua sessão. </p>
         <section className="reviews">
           <h2>Minhas avaliações</h2>
           <p>Realize uma sessão com Jenifer Soares Bezerra para deixar uma avaliação</p>
+<<<<<<< HEAD
           <button>Agendar Sessão</button>
+=======
+          <Link className="reviews-button" to="/formapagamento">Agendar Sessão</Link>
+>>>>>>> 4611f927d73d2870e658eddb5b06a3854ae3b731
           <div className="review-cards">
             <div className="review-card">
               <p>Ótima profissional...</p>
@@ -162,4 +170,8 @@ do sono. Agende sua sessão. </p>
   );
 }
 
+<<<<<<< HEAD
 export default PerfilCompleto;
+=======
+export default PerfilCompleto;
+>>>>>>> 4611f927d73d2870e658eddb5b06a3854ae3b731

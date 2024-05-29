@@ -28,9 +28,6 @@ function Footer() {
                     <li>
                         <Link to="/cliente" className="footer-link">Criar Conta</Link>
                     </li>
-                    <li>
-                        <Link to="encontrarespecialista" className="footer-link">Especialistas</Link>
-                    </li>
                 </ul>
                 <ul className="footer-list">
                     <li>
@@ -73,7 +70,7 @@ function Footer() {
                         <h1>Contatos</h1>
                     </li>
                     <li>
-                        <a href="mailto:voluntariamentefigma@gmail.com" className="footer-link">Email:voluntariamentefigma@gmail.com</a>
+                        <a href="mailto:voluntariamentefigma@gmail.com" className="footer-link">Entre em contato.</a>
                     </li>
                     <li className="footer-link">telefone:(81)90000-0000</li>
                 </ul>

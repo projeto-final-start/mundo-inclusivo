@@ -85,7 +85,7 @@ function Login() {
               <label className="remember-login" htmlFor="lembre-me">
                 Lembre-me
               </label>
-              <Link className="semsenha" to="/RecuperacaoSenha">
+              <Link className="semsenha" to="/recuperacaosenha">
                 Esqueceu a senha?
               </Link>
             </div>

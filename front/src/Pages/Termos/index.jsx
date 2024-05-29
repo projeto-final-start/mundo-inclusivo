@@ -86,10 +86,7 @@ function Termos() {
           Condições será submetida à jurisdição exclusiva dos tribunais
           competentes.
         </p>
-        <p className="paragrafos-termos">
-          Se você tiver alguma dúvida ou preocupação sobre estes Termos e
-          Condições, entre em contato conosco.
-        </p>
+
         <hr className="line"/>
         <h2 className="title-termos-especialista">
           TERMOS E CONDIÇÕES GERAIS DE USO - ESPECIALISTA
@@ -163,10 +160,6 @@ function Termos() {
           as leis vigentes. Qualquer disputa relacionada a estes Termos e
           Condições será submetida à jurisdição exclusiva dos tribunais
           competentes.
-        </p>
-        <p className="paragrafos-termos">
-          Se você tiver alguma dúvida ou preocupação sobre estes Termos e
-          Condições, entre em contato conosco.
         </p>
       </div>
       <img
