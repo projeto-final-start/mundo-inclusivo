@@ -19,6 +19,8 @@ import EncontrarEspecialista from "./Pages/EncontrarEspecialista";
 import RecuperacaoSenha from "./Pages/RecuperacaoSenha";
 import DashboardBase from "./Dashboard/components/DashboardBase";
 import DisponibilidadeEspecialista from "./Pages/DisponibilidadeEspecialista";
+import FormaPagamento from "./Pages/FormaPagamento";
+import PerfilCompleto from "./Pages/PerfilCompleto";
 import Page404 from "./Pages/Page404";
 import PageBase from "./Pages/PageBase";
 
@@ -48,6 +50,8 @@ function AppRoutes() {
             <Route path="faq" element={<FAQ />} />
             <Route path="perfilcliente" element={<PerfilCliente />} />
             <Route path="recuperacaosenha" element={<RecuperacaoSenha />} />
+            <Route path="formapagamento" element={<FormaPagamento />} />
+            <Route path="perfilcompleto" element={<PerfilCompleto/>} />
 
             <Route path="*" element={<Page404 />} />
           </Route>
