@@ -26,7 +26,7 @@ function RecuperacaoSenha() {
                     required
                 />
                 <button type="submit" className="btn-rec">Enviar</button>
-                <Link to="/" className="btn-senha-volta">Voltar</Link>
+                <Link to="/login" className="btn-senha-volta">Voltar</Link>
             
             {emailSent && (
                 <div className="mensagem-confirmacao">

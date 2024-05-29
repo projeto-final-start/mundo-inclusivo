@@ -4,23 +4,17 @@
     margin-top: 50px;
     background-color: rgb(255, 253, 253);
     box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
-    border-radius: 77px;
+    border-radius: 15px;
 }
 
 .fotocadastrecliente{
     margin-left: 20px;
 }
 
-.cadastre {
-    margin-left: 2%;
-    line-height: 80px;
-    font-family: 'Jost';
-    font-style: normal;
+.cadastre {    
     font-weight: 400;
-    font-size: 48px;
-    line-height: -69px;
-    margin-top: -40px;
-
+    font-size: 48px;  
+    margin-left: 85px;
     color: #3969C8;
 }
 
@@ -34,7 +28,7 @@
 .email-cliente,
 .senha-cliente {
     align-items: center;
-    width: 100%;
+    width: 80%;
     height: 40px;
     border-radius: 15px;
     border: 1px solid #333333;
@@ -55,8 +49,9 @@
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    margin-left: 25%;
-    margin-top: 5%;
+    margin-left: 70px;
+    
+    
 
   }
   

@@ -25,7 +25,7 @@ function DashboardHeader() {
         <span><img src="../src/assets/logo.png" alt="Logo" /></span>
       </Link>
       <nav>
-        <Link to="/">Agenda</Link> {/*Testando navlink para estilizar caso não de apagar import do navlink e retornar para link */}
+        <Link to="/agendaespecialista">Agenda</Link> 
         <Link to="/disponibilidadeespecialista">Disponibilidade</Link>
         <Link to="/clienteespecialista">Cliente</Link>
       </nav>
@@ -36,7 +36,7 @@ function DashboardHeader() {
         <div>
           <div className={styles.modalIcones}>
           <FaRegUser />
-            <Link to="/login">  Minha conta</Link> <br />
+            <Link to="/editarperfilespecialista">  Minha conta</Link> <br />
           </div>
         </div>
         <div>

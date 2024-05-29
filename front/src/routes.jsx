@@ -22,6 +22,7 @@ import DisponibilidadeEspecialista from "./Pages/DisponibilidadeEspecialista";
 import FormaPagamento from "./Pages/FormaPagamento";
 import PerfilCompleto from "./Pages/PerfilCompleto";
 import ClienteEspecialista from "./Pages/ClienteEspecialista";
+import EditarPerfilEspecialista from "./Pages/EditarPerfilEspecialista";
 import Page404 from "./Pages/Page404";
 import PageBase from "./Pages/PageBase";
 
@@ -53,6 +54,7 @@ function AppRoutes() {
             <Route path="recuperacaosenha" element={<RecuperacaoSenha />} />
             <Route path="formapagamento" element={<FormaPagamento />} />
             <Route path="perfilcompleto" element={<PerfilCompleto/>} />
+            
           
 
             <Route path="*" element={<Page404 />} />
@@ -64,6 +66,7 @@ function AppRoutes() {
             <Route path="disponibilidadeespecialista" element={<DisponibilidadeEspecialista />} />
               <Route path="agendaespecialista" element={<AgendaEspecialista />} />
               <Route path="clienteespecialista" element={<ClienteEspecialista/>} />
+              <Route path="editarperfilespecialista" element={<EditarPerfilEspecialista/>} />
             </Route>
           </Route>
           

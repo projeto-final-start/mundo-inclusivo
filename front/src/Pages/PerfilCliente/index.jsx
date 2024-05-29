@@ -21,7 +21,7 @@ function PerfilCliente() {
                         </p>
                     </li>
                 </ul>
-                <Link to="/" className="btn-perfil-cliente">Encontrar especialista</Link>
+                <Link to="/encontrarespecialista" className="btn-perfil-cliente">Encontrar especialista</Link>
             </div>
             <div className="imagem-cliente">
                 <img src="/src/assets/img-perfil-cliente.svg" alt="" />

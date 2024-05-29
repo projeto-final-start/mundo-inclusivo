@@ -91,7 +91,7 @@ function CadastroEspecialista() {
                         )}
                     </form>
                     <div className="btn-">
-                        <Link to="/agendaespecialista" className="botao-cadastro">
+                        <Link to="/login" className="botao-cadastro">
                             Quero me cadastrar
                         </Link>
                     </div>
