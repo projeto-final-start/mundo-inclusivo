@@ -1,0 +1,108 @@
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .planos, .metodos-pagamento, .perfil, .resumo-agendamento {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 45%;
+  }
+  
+  .planos h2, .metodos-pagamento h2, .resumo-agendamento h2 {
+    margin-top: 0;
+  }
+  
+  .plano-detalhe p {
+    margin: 5px 0;
+  }
+  
+  .cartao-credito, .pix {
+    margin: 10px 0;
+  }
+  
+  .cartao-detalhes label {
+    display: block;
+    margin: 5px 0 2px;
+  }
+  
+  .cartao-detalhes input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .salvar-cartao {
+    margin-right: 350px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .salvar-cartao input {
+    margin-right: 5px;
+  }
+
+  .salvar-cartao label {
+    display: inline-flexbox;
+  }
+  
+  .perfil {
+    display: flex;
+    align-items: center;
+  }
+ 
+  .perfil img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-bottom: 200px;
+  }
+  .perfil-detalhes h3 {
+    margin: 0;
+  }
+  
+  .perfil-detalhes p {
+    margin: 2px 0;
+  }
+  
+  .resumo-detalhes {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .resumo-detalhes p {
+    margin: 5px 0;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .pagamento-seguro {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .pagamento-seguro img {
+    margin: 5px;
+  }
