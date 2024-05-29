@@ -1,1 +1,100 @@
-import 
+.saudacao-disp {
+    display: flex;
+    align-items: center;    
+
+    background-color: var(--white);
+    color: var(--letters);
+
+    margin-top: 40px;
+    width: 1400px;
+    height: 130px;
+    border-radius: 15px;  
+    margin-left: 70px;
+}
+
+.saudacao-disp h1{
+    margin-left: 30px;
+    font-size: 36px ;
+    font-weight: bold;
+}
+
+.agendamento-disp {
+    display: flex;
+    justify-content: space-between;
+
+    background-color: var(--white);
+    color: var(--letters);
+
+    margin-top: 60px;
+    width: 1400px;
+    height: 130px;
+    border-radius: 15px; 
+    margin-left: 70px;
+    
+}
+
+.agendamento-disp h3{
+    margin-left: 30px;
+    margin-top: 40PX;
+    font-size: 15px ;
+    font-weight: bold;
+}
+
+.agendamento-disp li {
+    list-style: none;
+    margin-top: 20px;
+
+}
+
+.imagem-disp {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 1100px;
+    margin-bottom: -70px;
+}
+
+.btn-perfil-disp {
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 0;
+    background: var(--dark-blue);
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    
+    margin-top: 10px;
+    margin-left: 700px;
+}
+
+.acoes {
+    display: flex;
+    gap: 60px;
+    margin-right: 70px;
+}
+
+.btn-perfil-disp:hover {
+    background: var(--white);
+    color: var(--dark-blue);
+}
+
+.editar-btn, .excluir-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.excluir-btn {
+    color: red;
+}
+
+.editar-btn {
+    color: green;
+}
