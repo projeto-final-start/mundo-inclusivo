@@ -52,8 +52,8 @@ function AppRoutes() {
             <Route path="faq" element={<FAQ />} />
             <Route path="perfilcliente" element={<PerfilCliente />} />
             <Route path="recuperacaosenha" element={<RecuperacaoSenha />} />
-            <Route path="formapagamento" element={<FormaPagamento />} />
             <Route path="perfilcompleto" element={<PerfilCompleto/>} />
+            <Route path="formapagamento" element={<FormaPagamento />} />
             
           
 
