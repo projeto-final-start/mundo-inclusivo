@@ -1,166 +1,166 @@
-import React from 'react';
-import "./PerfilCompleto.css";
-import { Link } from 'react-router-dom'
+import './PerfilCompleto.css';
+import { Link } from "react-router-dom";
 
 function PerfilCompleto() {
   return (
-    <div className="container-perfil-completo">
-      <div className="header-perfil-completo">
-        <h1>Jenifer Soares Bezerra</h1>
-        <p>Terapeuta</p>
-      </div>
-      <div className="agendamento">
-        <table>
-          <thead>
-            <tr>
-              <th>QUI</th>
-              <th>SEX</th>
-              <th>SAB</th>
-              <th>DOM</th>
-              <th>SEG</th>
-            </tr>
-            <tr>
-              <th>09 MAI</th>
-              <th>10 MAI</th>
-              <th>11 MAI</th>
-              <th>12 MAI</th>
-              <th>13 MAI</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>11:00</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td>11:00</td>
-            </tr>
-            <tr>
-              <td>11:30</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td>11:30</td>
-            </tr>
-            <tr>
-              <td>12:00</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td>12:00</td>
-            </tr>
-            <tr>
-              <td>12:30</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td>12:30</td>
-            </tr>
-            <tr>
-              <td>13:00</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td>13:00</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div className="info-perfil-completo">
-        <p>
-          As nossas sessões são voltadas para trabalhar seu corpo e mente para
-          lidar com situações de raiva, stress, insonia e falta de foco.
-          Trazendo através do Yoga, flexibilidade para seu corpo físico e
-          mental, além de melhorar seu sistema imunológico. Também atuo com
-          Reiki entre outras terapias
-        </p>
-        <div className="avaliacao-perfil-completo">
-          <span>5 (5 comentários)</span>
-          <span>45 @tendimentos</span>
+    <div className="container">
+      <header className="header">
+        <div className="perfil">
+          <img src="src/assets/fotoperfilcompleto.jpg" alt="Perfil" className="perfil-img" />
+          <div className="perfil-info">
+            <h1>Jenifer Soares Bezerra</h1>
+            <h2>Psicóloga</h2>
+            <p>As nossas sessões são voltadas para trabalhar seu corpo e mente para lidar com situações de raiva, stress, insônia e falta de foco. Trazendo através do Yoga, flexibilidade para seu corpo físico e mental, além de melhorar seu sistema imunológico. Também atuo com Reiki entre outras terapias.</p>         
+            <p>⭐ Avaliações: (5/5)</p>
+            <p>✉ 45 Atendimentos</p>
+            <p>Sessão 50 min</p>
+            <p>R$ 60,00</p>
+          </div>
         </div>
-        <div className="detalhes-perfil-completo">
-          <span>Sessão 50 min</span>
-          <span>R$ 60</span>
+        <div className="agendar">
+          <table>
+            <thead>
+              <tr>
+                <th>Seg 27/05</th>
+                <th>Ter 28/05</th>
+                <th>Qua 29/05</th>
+                <th>Qui 30/05</th>
+                <th>Sex 31/05</th>
+                <th>Sáb 01/06</th>
+                <th>Dom 02/06</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>9:00</td>
+                <td>9:00</td>
+                <td>9:00</td>
+                <td>9:00</td>
+                <td>9:00</td>
+                <td>9:00</td>
+                <td>9:00</td>
+              </tr>
+              <tr>
+                <td>10:00</td>
+                <td>10:00</td>
+                <td>10:00</td>
+                <td>10:00</td>
+                <td>10:00</td>
+                <td>10:00</td>
+                <td>10:00</td>
+              </tr>
+              <tr>
+                <td>11:00</td>
+                <td>11:00</td>
+                <td>11:00</td>
+                <td>11:00</td>
+                <td>11:00</td>
+                <td>11:00</td>
+                <td>11:00</td>
+              </tr>
+              <tr>
+                <td>12:00</td>
+                <td>12:00</td>
+                <td>12:00</td>
+                <td>12:00</td>
+                <td>12:00</td>
+                <td>12:00</td>
+                <td>12:00</td>
+              </tr>
+              <tr>
+                <td>13:00</td>
+                <td>13:00</td>
+                <td>13:00</td>
+                <td>13:00</td>
+                <td>13:00</td>
+                <td>13:00</td>
+                <td>13:00</td>
+              </tr>
+              <tr>
+                <td>14:00</td>
+                <td>14:00</td>
+                <td>14:00</td>
+                <td>14:00</td>
+                <td>14:00</td>
+                <td>14:00</td>
+                <td>14:00</td>
+              </tr>
+              <tr>
+                <td>15:00</td>
+                <td>15:00</td>
+                <td>15:00</td>
+                <td>15:00</td>
+                <td>15:00</td>
+                <td>15:00</td>
+                <td>15:00</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
-      </div>
-      <div className="analisador-perfil">
-        <h2>Perfil</h2>
-        <hr />
-        <h3>EXPERIÊNCIA</h3>
-        <ul>
-          <li>Ansiedade</li>
-          <li>Burnout</li>
-          <li>Dor</li>
-          <li>Estresse</li>
-          <li>Excesso de peso</li>
-          <li>Falta de Desejo</li>
-          <li>Falta de Prazer</li>
-          <li>Meditação / Mindfulness</li>
-        </ul>
-        <hr />
-        <h3>ESPECIALIDADES</h3>
-        <ul>
-          <li>Meditação</li>
-          <li>TERAPIA DE Florais</li>
-          <li>Yoga</li>
-        </ul>
-        <hr />
-        <h3>FORMAÇÃO</h3>
-        <ul>
-          <li>Curso de Yoga -Conclusão em 2009</li>
-          <li>Graduação - Pedagogia - UNISA - Conclusão em 2011</li>
-          <li>Curso - Terapia Floral - IbratH - Conclusão em 2024</li>
-        </ul>
-        <hr />
-        <h3>DESCRIÇÃO PESSOAL</h3>
-        <ul>
-          <li>
-            Sou formada em pedagogia com especialização em neurociências e
-            psicopedagogia clínica. Encontrei o caminho do Yoga em 2006 e me
-            formei em 2009. Estou no caminho das terapias desde 2005, sou Mestre
-            em Reiki e formada em Yoga, com foco em Yogaterapia e Meditação.
-            Também atuo com florais de bach. Trabalho com sagrado feminino e com
-            mulheres que desejam despertar suas potencialidades, melhorar sua
-            energia sexual e iniciar com a técnica de Yoni Eggs. Também com
-            técnicas naturais para limpezas energéticas. Além disso, conduzo
-            meditação e também processos de relaxamentos para melhorar a
-            qualidade do sono. Agende sua sessão.
-          </li>
-        </ul>
-        <hr />
-        <h3>POLÍTICA DE REMARCAÇÃO</h3>
-        <ul>
-            <li>Remarcações podem ocorrer até 1 hora antes sem custo adicional</li>
-        </ul>
-        <div className="container-avaliacoes">
-      <h1>Minhas Avaliações</h1>
-      <p>Baseado em 5 opiniões</p>
-      <div className="avaliacoes-perfil">
-        <div className="analise-perfil">
-          <h2>Daniela</h2>
-          <p>
-            Daniela é atenciosa, sensível e conduz a sessão de forma muito gentil. A prática com ela me ajudou a me fazer mais presente e ter mais clareza mental e me lembrar como é bom e importante me proporcionar esses momentos de autocuidado.
-          </p>
-          <p>Juliane - Maio, 08 2024</p>
-        </div>
-        <div className="analise-perfil">
-          <h2>Francielly</h2>
-          <p>
-            Super recomendo. Profissional super empática, olha com cuidado para cada questão e te faz sentir única e especial em cada sessão.
-          </p>
-          <p>Francielly - Maio, 03 2024</p>
-        </div>
-        <div className="analise-perfil">
-          <h2>Fabíola</h2>
-          <p>Excelente profissional! Eu recomendo com certeza!</p>
-          <p>Fabíola - Abril, 30 2024</p>
-        </div>
-      </div>
-      <button>Agendar Sessão</button>
-    </div>
-      </div>
+      </header>
+
+      <main>
+        <section className="perfil-detalhes">
+          <h2>Perfil</h2>
+          <div className="experiência">
+            <h3>EXPERIÊNCIA</h3>
+            <ul>
+              <li>Ansiedade</li>
+              <li>Burnout</li>
+              <li>Dor</li>
+              <li>Estresse</li>
+              <li>Excesso de Peso</li>
+              <li>Falta de Desejo</li>
+              <li>Falta de Prazer</li>
+              <li>Meditação/Mindfulness</li>
+            </ul>
+            <hr />
+          </div>
+          <div className="especialidades">
+            <h3>ESPECIALIDADES</h3>
+            <ul>
+              <li>Meditação</li>
+              <li>Terapia de Florais</li>
+              <li>Yoga</li> 
+              </ul> 
+              <hr /> 
+          </div>
+          <div className="formação">
+            <h3>FORMAÇÃO</h3>
+            <p>Curso: Yoga - Conclusão em 2009</p>
+            <p>Curso: Psicologia - Conclusão em 2011</p>
+            <p>Graduação - Pedagogia - UNISA - Conclusão em 2011</p>
+            <p>Curso - Terapia Floral - IbratH - Conclusão em 2024</p>
+          </div>
+          <hr />
+          <div className="descrição-pessoal">
+            <h3>Descrição Pessoal</h3>
+            <p>Sou formada em pedagogia com especialização em neurociências e psicopedagogia clínica. Encontrei o caminho do Yoga em 2006 e me formei em 2009. Estou no caminho das terapias desde 2005, sou Mestre em Reiki e formada em Yoga, com 
+foco em Yogaterapia e Meditação. Também atuo com florais de bach. Trabalho com técnicas naturais para limpezas energéticas. Além disso, conduzo meditação e também processos de relaxamentos para melhorar a qualidade 
+do sono. Agende sua sessão. </p>
+          </div>
+          <hr />
+        </section>
+
+        <section className="reviews">
+          <h2>Minhas avaliações</h2>
+          <p>Realize uma sessão com Jenifer Soares Bezerra para deixar uma avaliação</p>
+          <Link className="reviews-button" to="/formapagamento">Agendar Sessão</Link>
+          <div className="review-cards">
+            <div className="review-card">
+              <p>Ótima profissional...</p>
+            </div>
+            <div className="review-card">
+              <p>Excelente atendimento...</p>
+            </div>
+            <div className="review-card">
+              <p>Recomendo a todos...</p>
+            </div>
+          </div>
+        </section>
+      </main>
     </div>
   );
 }
 
-export default PerfilCompleto;
+export default PerfilCompleto;

@@ -50,9 +50,9 @@ function AppRoutes() {
             <Route path="politicaprivacidade" element={<PoliticaPrivacidade />} />
             <Route path="quemSomos" element={<QuemSomos />} />
             <Route path="faq" element={<FAQ />} />
+            <Route path="formapagamento" element={<FormaPagamento />} />
             <Route path="perfilcliente" element={<PerfilCliente />} />
             <Route path="recuperacaosenha" element={<RecuperacaoSenha />} />
-            <Route path="formapagamento" element={<FormaPagamento />} />
             <Route path="perfilcompleto" element={<PerfilCompleto/>} />
             
           
@@ -67,6 +67,7 @@ function AppRoutes() {
               <Route path="agendaespecialista" element={<AgendaEspecialista />} />
               <Route path="clienteespecialista" element={<ClienteEspecialista/>} />
               <Route path="editarperfilespecialista" element={<EditarPerfilEspecialista/>} />
+              
             </Route>
           </Route>
           

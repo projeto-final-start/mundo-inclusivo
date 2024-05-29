@@ -15,11 +15,11 @@ function Calendario() {
             plugins={[dayGridPlugin, timeGridPlugin, interactionPlugin]}
             initialView={"dayGridMonth"} // para visualização do mês
             headerToolbar={{
-                start: "today prev next",
+                start: "today,prev,next",
                 center: "title",
                 end: "dayGridMonth,timeGridWeek,timeGridDay",
             }}
-            height={'40vh'}
+            height={'50vh'}
             
 
         />

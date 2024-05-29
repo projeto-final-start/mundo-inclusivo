@@ -5,7 +5,7 @@ function PerfilCliente() {
     return (
         <section>
             <div className="saudacao-cliente">
-                <h1>Boa tarde, "Aqui vai o nome do usuário"</h1>
+                <h1>Boa tarde, Gabrielle Nascimento!</h1>
             </div>
 
             <div className="agendamento-cliente">

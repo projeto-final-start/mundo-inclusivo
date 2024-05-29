@@ -1,36 +1,104 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
-.container-avaliacoes {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-  }
-  
-  .avaliacoes-perfil {
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-    margin-top: 20px;
-  }
-  
-  .analise-perfil {
-    border: 1px solid #ccc;
-    padding: 20px;
-    border-radius: 5px;
-    width: 30%;
-  }
-  
-  button {
-    background: var(--white);
-    color: var(--dark-blue);
-    border: none;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 20px 0;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+}
+
+.perfil-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+  margin-bottom: 200px;
+}
+
+.perfil-info h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.perfil-info h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.perfil-info p {
+  margin: 5px 0 0;
+  color: #666;
+}
+
+.agendar table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.agendar th, .agendar td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.perfil-detalhes h2, .reviews h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.perfil-detalhes h3 {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.perfil-detalhes p, .perfil-detalhes ul {
+  margin: 10px 0;
+}
+
+.reviews {
+  background-color: #e0f7fa;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.reviews p {
+  margin: 10px 0;
+}
+
+.reviews-button {
+  background-color: #6193F5;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.review-cards {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.review-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 30%;
+}
