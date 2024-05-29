@@ -1,8 +1,4 @@
-import './PerfilCompleto.css';
-<<<<<<< HEAD
-=======
-import { Link } from "react-router-dom";
->>>>>>> 4611f927d73d2870e658eddb5b06a3854ae3b731
+import './PerfilCompleto.css'
 
 function PerfilCompleto() {
   return (
