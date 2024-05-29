@@ -11,9 +11,9 @@ function EncontrarEspecialista() {
             <div className="pagina-especialista">
 
                 <div className="card-especialista">
-                    <img src="src/assets/foto-perfil.png" alt="" className="avatar"></img>
-                    <h2>Confúcio Dos Santos</h2>
-                    <p>Terapeuta - 24 anos de experiência - Pós-Graduado(a)</p>
+                    <img src="src/assets/fotoperfilcompleto.jpg" alt="" className="avatar"></img>
+                    <h2>Jenifer Soares Bezerra</h2>
+                    <p>Terapeuta - 10 anos de experiência - Pós-Graduado(a)</p>
                     <div className="tags">
                         <span className="tag">Ansiedade</span>
                         <span className="tag">Assertividade</span>
@@ -40,7 +40,7 @@ function EncontrarEspecialista() {
             <div className="pagina-especialista">
                 <div className="card-especialista">
 
-                    <img src="src/assets/foto-perfil.png" alt="" className="avatar"></img>
+                    <img src="src/assets/perfilformadepagamento.jpg" alt="" className="avatar"></img>
                     <h2>Carolina Souza da Silva</h2>
                     <p>Psicologia - 3 anos de experiência - Graduado(a)</p>
                     <div className="tags">

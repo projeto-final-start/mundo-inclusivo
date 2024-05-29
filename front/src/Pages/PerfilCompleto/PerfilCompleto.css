@@ -1,4 +1,3 @@
-
 .container {
   width: 80%;
   margin: 0 auto;
@@ -7,6 +6,17 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+<<<<<<< HEAD
+.container {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+=======
+>>>>>>> 4611f927d73d2870e658eddb5b06a3854ae3b731
 .header {
   display: flex;
   justify-content: space-between;
@@ -80,13 +90,21 @@
   margin: 10px 0;
 }
 
+<<<<<<< HEAD
 .reviews button {
+=======
+.reviews-button {
+>>>>>>> 4611f927d73d2870e658eddb5b06a3854ae3b731
   background-color: #6193F5;
   color: #fff;
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
+<<<<<<< HEAD
+=======
+  text-decoration: none;
+>>>>>>> 4611f927d73d2870e658eddb5b06a3854ae3b731
 }
 
 .review-cards {

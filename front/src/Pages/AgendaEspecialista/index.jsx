@@ -6,7 +6,7 @@ function AgendaEspecialista() {
         <div className="Calendar">
           <div className="Calendar-header">
             <input type="text" placeholder="Nome do cliente" />
-            <button>Agendar +</button>
+            
           </div>
           <div className="Calendar-grid">
             <div>Dom</div>
@@ -27,7 +27,7 @@ function AgendaEspecialista() {
             <div>08:00</div>
             <div></div>
             <div></div>
-            <div></div>
+            <div>Gabrielle Nascimento</div>
             <div></div>
             <div></div>
             <div></div>
@@ -36,7 +36,7 @@ function AgendaEspecialista() {
             <div></div>
             <div></div>
             <div></div>
-            <div></div>
+            <div>Neusa Gonçalves</div>
             <div></div>
             <div></div>
             <div></div>
@@ -53,7 +53,7 @@ function AgendaEspecialista() {
             <div></div>
             <div></div>
             <div></div>
-            <div></div>
+            <div>Anderson Lima</div>
             <div></div>
             <div></div>
             <div>12:00</div>
@@ -61,7 +61,7 @@ function AgendaEspecialista() {
             <div></div>
             <div></div>
             <div></div>
-            <div></div>
+            <div>Kelly Lins</div>
             <div></div>
             <div></div>
             <div>13:00</div>

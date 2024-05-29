@@ -25,9 +25,9 @@ function DashboardHeader() {
         <span><img src="../src/assets/logo.png" alt="Logo" /></span>
       </Link>
       <nav>
-        <Link to="/agendaespecialista">Agenda</Link> 
-        <Link to="/disponibilidadeespecialista">Disponibilidade</Link>
-        <Link to="/clienteespecialista">Cliente</Link>
+        <Link to="/dashboard/agendaespecialista">Agenda</Link> 
+        <Link to="/dashboard/disponibilidadeespecialista">Disponibilidade</Link>
+        <Link to="/dashboard/clienteespecialista">Cliente</Link>
       </nav>
       <div className='btn-modal'>
       <button className="btn-perfil" onClick={() => setOpenModal(true)}><HiOutlineUserCircle /></button>
@@ -36,13 +36,13 @@ function DashboardHeader() {
         <div>
           <div className={styles.modalIcones}>
           <FaRegUser />
-            <Link to="/editarperfilespecialista">  Minha conta</Link> <br />
+            <Link to="/dashboard/editarperfilespecialista">  Minha conta</Link> <br />
           </div>
         </div>
         <div>
           <div className={styles.modalIcones}>
             <FaHeartPulse />
-            <Link to="/login">Assinatura</Link> <br />
+            <Link to="/dashboard/formapagamento"> Assinatura</Link> <br />
           </div>
           
         </div>
@@ -51,8 +51,6 @@ function DashboardHeader() {
         </div>
       </Modal>
     </header>
-
   )
 }
-
 export default DashboardHeader

@@ -13,12 +13,22 @@ function FormaPagamento() {
       </div>
       <div className="metodos-pagamento">
         <h2>Métodos de Pagamento</h2>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4611f927d73d2870e658eddb5b06a3854ae3b731
         <div className="cartao-credito">
           <input type="radio" id="cartao" name="pagamento" value="cartao" />
           <label htmlFor="cartao">Cartão de Crédito (Mastercard / Visa)</label>
           <br />
           <input type="radio" id="cartao" nome-="pagamento" value="cartao" />
+<<<<<<< HEAD
           <label htmlFor="cartao">Cartão de Débito (Mastercard / Visa)</label>         
+=======
+          <label htmlFor="cartao">Cartão de Débito (Mastercard / Visa)</label>
+          <br />
+
+>>>>>>> 4611f927d73d2870e658eddb5b06a3854ae3b731
           <div className="cartao-detalhes">
             <label htmlFor="nome-cartao">Nome do titular do cartão</label>
             <input type="text" id="nome-cartao" />
@@ -40,9 +50,15 @@ function FormaPagamento() {
         </div>
       </div>
       <div className="perfil">
+<<<<<<< HEAD
         <img src="src/assets/perfilformadepagamento.jpg" alt="Perfil" />
         <div className="perfil-detalhes">
           <h3>Gabrielle Nascimento</h3>
+=======
+        <img src="src/assets/fotoperfilcompleto.jpg" alt="Perfil" />
+        <div className="perfil-detalhes">
+          <h3>Jenifer Soares Bezerra</h3>
+>>>>>>> 4611f927d73d2870e658eddb5b06a3854ae3b731
           <p>Especialista | São Paulo</p>
           <p>Idade: 35 anos</p>
           <p>Fuso Horário: São Paulo (-3)</p>
@@ -62,9 +78,15 @@ function FormaPagamento() {
         <button>CONFIRMAR PAGAMENTO</button>
         <div className="pagamento-seguro">
           <p>Pagamento Seguro</p>
+<<<<<<< HEAD
           <img src="src/assets/mastercard.png" alt="Mastercard" />
           <img src="src\assets\visa.png" alt="Visa" />
           <img src="src/assets/pix.png" alt="Pix" />
+=======
+          <img src="src/assets/mastercard.jpg" alt="Mastercard" />
+          <img src="src\assets\visa.jpg" alt="Visa" />
+          <img src="src/assets/pix.jpg" alt="Pix" />
+>>>>>>> 4611f927d73d2870e658eddb5b06a3854ae3b731
         </div>
       </div>
     </div>
