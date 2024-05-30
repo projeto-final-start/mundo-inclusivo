@@ -9,7 +9,7 @@ function PerfilCompleto() {
           <div className="perfil-info">
             <h1>Jenifer Soares Bezerra</h1>
             <h2>Psicóloga</h2>
-            <p>As nossas sessões são voltadas para trabalhar seu corpo e mente para lidar com situações de raiva, stress, insônia e falta de foco. Trazendo através do Yoga, flexibilidade para seu corpo físico e mental, além de melhorar seu sistema imunológico. Também atuo com Reiki entre outras terapias.</p>         
+            <p>As nossas sessões são voltadas para trabalhar seu corpo e mente para lidar com situações de raiva, stress, insônia e falta de foco. Trazendo através do Yoga, flexibilidade para seu corpo físico e mental, além de melhorar seu sistema imunológico. Também atuo com Reiki entre outras terapias.</p>
             <p>⭐ Avaliações: (5/5)</p>
             <p>✉ 45 Atendimentos</p>
             <p>Sessão 50 min</p>
@@ -120,9 +120,9 @@ function PerfilCompleto() {
             <ul>
               <li>Meditação</li>
               <li>Terapia de Florais</li>
-              <li>Yoga</li> 
-              </ul> 
-              <hr /> 
+              <li>Yoga</li>
+            </ul>
+            <hr />
           </div>
           <div className="formação">
             <h3>FORMAÇÃO</h3>
@@ -134,9 +134,9 @@ function PerfilCompleto() {
           <hr />
           <div className="descrição-pessoal">
             <h3>Descrição Pessoal</h3>
-            <p>Sou formada em pedagogia com especialização em neurociências e psicopedagogia clínica. Encontrei o caminho do Yoga em 2006 e me formei em 2009. Estou no caminho das terapias desde 2005, sou Mestre em Reiki e formada em Yoga, com 
-foco em Yogaterapia e Meditação. Também atuo com florais de bach. Trabalho com técnicas naturais para limpezas energéticas. Além disso, conduzo meditação e também processos de relaxamentos para melhorar a qualidade 
-do sono. Agende sua sessão. </p>
+            <p>Sou formada em pedagogia com especialização em neurociências e psicopedagogia clínica. Encontrei o caminho do Yoga em 2006 e me formei em 2009. Estou no caminho das terapias desde 2005, sou Mestre em Reiki e formada em Yoga, com
+              foco em Yogaterapia e Meditação. Também atuo com florais de bach. Trabalho com técnicas naturais para limpezas energéticas. Além disso, conduzo meditação e também processos de relaxamentos para melhorar a qualidade
+              do sono. Agende sua sessão. </p>
           </div>
           <hr />
         </section>
@@ -144,11 +144,10 @@ do sono. Agende sua sessão. </p>
         <section className="reviews">
           <h2>Minhas avaliações</h2>
           <p>Realize uma sessão com Jenifer Soares Bezerra para deixar uma avaliação</p>
-<<<<<<< HEAD
-          <button>Agendar Sessão</button>
-=======
+
+
           <Link className="reviews-button" to="/formapagamento">Agendar Sessão</Link>
->>>>>>> 4611f927d73d2870e658eddb5b06a3854ae3b731
+          
           <div className="review-cards">
             <div className="review-card">
               <p>Ótima profissional...</p>
@@ -160,14 +159,10 @@ do sono. Agende sua sessão. </p>
               <p>Recomendo a todos...</p>
             </div>
           </div>
-        </section>
-      </main>
-    </div>
+        </section >
+      </main >
+    </div >
   );
 }
 
-<<<<<<< HEAD
 export default PerfilCompleto;
-=======
-export default PerfilCompleto;
->>>>>>> 4611f927d73d2870e658eddb5b06a3854ae3b731
