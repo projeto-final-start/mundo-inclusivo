@@ -61,9 +61,6 @@ function Footer() {
                     <li>
                         <Link to="/quemsomos" className="footer-link">Quem Somos</Link>
                     </li>
-                    <li>
-                        <Link to="/formapagamento" className="footer-link">Forma de Pagamento</Link>
-                    </li>
                 </ul>
                 <ul className="footer-list">
                     <li>
