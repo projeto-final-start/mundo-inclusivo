@@ -53,7 +53,7 @@ function AppRoutes() {
             <Route path="formapagamento" element={<FormaPagamento />} />
             <Route path="perfilcliente" element={<PerfilCliente />} />
             <Route path="recuperacaosenha" element={<RecuperacaoSenha />} />
-            <Route path="perfilcompleto" element={<PerfilCompleto/>} />            
+
           
 
             <Route path="*" element={<Page404 />} />
